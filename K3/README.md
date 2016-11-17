@@ -6,8 +6,8 @@ Three half bridge and a common half bridge that can be used to discharge a (9V/1
 
 ## Overview
 
-![Schematic](https://raw.githubusercontent.com/epccs/Driver/master/K3/16276,Schematic.png "OneShot Schematic")
+![Schematic](https://raw.githubusercontent.com/epccs/Driver/master/K3/16276,Schematic.png "K3 Schematic")
 
-![Bottom](https://raw.githubusercontent.com/epccs/Driver/master/K3/16276,Bottom.png "OneShot Board Bottom")
+![Bottom](https://raw.githubusercontent.com/epccs/Driver/master/K3/16276,Bottom.png "K3 Board Bottom")
 
-![Top](https://raw.githubusercontent.com/epccs/Driver/master/K3/16276,Top.png "OneShot Board Top")
+![Top](https://raw.githubusercontent.com/epccs/Driver/master/K3/16276,Top.png "K3 Board Top")
