@@ -16,7 +16,7 @@ An interactive Command Line Interface for [Solenoid][1] control is wired to LED'
     
 [1]: https://github.com/epccs/RPUno/tree/master/Solenoid
 [2]: http://rpubus.org/Video/14140%5E5_SolenoidResetAllLogic.mp4
-[3]: http://rpubus.org/Video/14140%5E5WithK3%5E0.mp4">RPUno With K3</A> Video
+[3]: http://rpubus.org/Video/14140%5E5WithK3%5E0.mp4
 
 ![K3 With RPUno](./K3^0WithRPUno^5.jpg "K3 With RPUno")
 
