@@ -91,7 +91,7 @@ TBD (it is OSH)
 
 ## Testing
 
-Check correct assembly and function with [Testing] [./Testing/]
+Check correct assembly and function with [Testing](./Testing/)
 
 
 # Bill of Materials
