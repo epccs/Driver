@@ -7,14 +7,14 @@ This is a list of Test preformed on each board after assembly.
 
 # Table Of Contents:
 
-1. Basics
-2. Assembly check
-3. IC Solder Test
-4. Bias 5V
-5. Charge To 9V
-6. Charge To 12V
-7. Charge To 24V
-8. K[1..3] Set and Reset
+1. [Basics](#basics)
+2. [Assembly check](#assembly-check)
+3. [IC Solder Test](#ic-solder-test)
+4. [Bias 5V](#bias-5v)
+5. [Charge To 9V](#charge-to-9v)
+6. [Charge To 12V](#charge-to-12v)
+7. [Charge To 24V](#charge-to-24v)
+8. [K[1..3] Set and Reset](#k13-set-and-reset)
 
 
 ## Basics
