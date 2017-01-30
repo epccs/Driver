@@ -37,9 +37,9 @@ Latching solenoids are driven with a current pulse that last a short duration. T
 This was split out of Irrigate7 to try some ideas. The goal is to return an improved version to the Irrigate7 board.
 
 ```
-        ^1  Done: Design, Layout, BOM, Review*, Order Boards,
-            WIP: Assembly,
-            Todo: Testing, Evaluation.
+        ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
+            WIP: Testing,
+            Todo: Evaluation.
             *during review the Design may change without changing the revision.
             Boost shutdown hack should not allow it to turn on unless PMOS (Q19) connects power
             2.54mm header for A0..A2, nE1, nE2, E3 (same as CL8)
