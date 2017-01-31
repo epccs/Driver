@@ -11,7 +11,7 @@ Latching solenoids are driven with a current pulse that last a short duration. T
 ```
         Boost converter with 300mA pk input current limit.
         Boost leaves 200mA of a USB input for an Uno or ilk.
-        Capacitor to hold a charge for delivery durring latching.
+        Capacitor holds a charge for latching.
 ```
 
 
@@ -37,6 +37,13 @@ Latching solenoids are driven with a current pulse that last a short duration. T
 This was split out of Irrigate7 to try some ideas. The goal is to return an improved version to the Irrigate7 board.
 
 ```
+        ^2  Done: 
+            WIP: 
+            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+            *during review the Design may change without changing the revision.
+            Remove the PMOS (Q27) that sends boost to plug (discharge on a coil, forget about other uses).
+            Use E3 to enable current source used to test for bridge short (save a power durring night).
+
         ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
             WIP: Testing,
             Todo: Evaluation.
