@@ -44,16 +44,12 @@ This was split out of Irrigate7 to try some ideas. The goal is to return an impr
             Remove the PMOS (Q27) that sends boost to plug (discharge on a coil, forget about other uses).
             Use E3 to enable current source used to test for bridge short (save a power durring night).
 
-        ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
-            WIP: Testing,
-            Todo: Evaluation.
-            *during review the Design may change without changing the revision.
-            Boost shutdown hack should not allow it to turn on unless PMOS (Q19) connects power
-            2.54mm header for A0..A2, nE1, nE2, E3 (same as CL8)
-            Use Y0 from 74HC238 to control another PMOS to send the BOOST supply to the plug header (e.g. for a discharge load or other uses)
-            Also have option for E3 to control the PMOS that sends  BOOST suply to plug header.
+        ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
+            WIP: Evaluation.
+            location: 2016-2-5 SWall Encl /w RPUno^5, RPUadpt^4, SLP003-12U, 12V battery.
             
         ^0  location: 2016-12-1 SWall Encl /w RPUno^4, RPUadpt^4, SLP003-12U, 12V battery.
+                      2016-2-4 removed.   
 ```
 
 

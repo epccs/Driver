@@ -19,7 +19,7 @@ This is a list of Test preformed on each board after assembly.
 
 ## Basics
 
-These tests are for an assembled K3 board 16276^0 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
+These tests are for an assembled K3 board 16276^1 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
 
 __Warning__: never use a soldering iron to rework ceramic capacitors due to the thermal shock.
 
@@ -38,96 +38,108 @@ Check continuity between pin and pad by measuring the reverse body diode drop fr
 
 ## Bias 5V
 
-Setup current limited supply with 5V and about 20mA limit. Connect A0, A1, A2 (J2 pin 1, 2, 3),  EN (J2 pin 4), and 0V (J2 pin 8) to the supply return. Connect nEN (J2 pin 5) and +5V (J2 pin 6) to supply. Turn on the supply and Check that the current drawn is about 3 mA.
+Setup a current limited supply with 5V and about 20mA limit. Connect A0, A1, A2 (J3 pin 1, 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return. Connect SUPPLY (J2 pin 2) and VCC (J3 pin 8) to the supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Verify that nE1 (J3 pin 10) and nE2 (J3 pin 9) are pulled down by 10k Ohm resistors. Measure the input current while disabled.
 
 ``` 
  TODO:  some data from unit(s)
-{"DISABLED_mA":[2.7,] }
+{"DISABLED_mA":[0.2,] }
 ``` 
 
-Add 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Check current draw.
+Close the switch that connects E3 to the 5V supply to turn on the current source that is used to test for a shorted bridge, wait for it to settle (about one second) and measure that the current drawn is less than 5 mA.
 
 ``` 
-{ "DISABLED_mA":[16.4,] }
+ TODO:  some data from unit(s)
+{"ENABLED_mA":[3.7,] }
 ``` 
+
+Add 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Measure the current source.
+
+``` 
+{ "CURR_SOURCE_mA":[17.6,] }
+``` 
+
 
 ## Charge To 9V
 
-Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J2 pin 2, 3),  nEN (J2 pin 5), and 0V (J2 pin 8) to the supply return. Connect A0 (J2 pin 1), EN (J2 pin 4) and +5V (J2 pin 6) to supply. Connect 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Turn on the supply and Check that boot supply is off (e.g. 1.7V)
-    
+Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (C4 plus pin) and 0V (J2 pin 3). Turn on the supply and Check that boot supply is off (e.g. only current source). Which shows that a shorted bridge will lock out the supply.
+
 ```
-{ "9VBOOSTOFF_V":[1.64,]}
+{ "9VBOOSTOFF_mA":[17.6,]}
 ```
 
-Open the 100 Ohm load and Check that the boost voltage is 9V.
+Open the 0 Ohm load and Check that the boost voltage is 9V.
 
 ```
 { "9VBOOST_V":[9.2,]}
 ```
 
-Connect the 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Check BOOST voltage and current draw.
+Connect a 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BOOST voltage and current draw.
 
 ```
-{ "9VBOOSTLD_V":[9.12,],
-"9VBOOSTLD_mA":[224,]}
+{ "9VBOOSTLD_V":[9.16,],
+"9VBOOSTLD_mA":[215,]}
 ```
 
-NOTE: A 17mA current source is used to test for a short, if the voltage it causes is not high enough then the PMOS (Q18) that feeds the boost SMPS does not enable. This is a safty feature that should prevent a shorted bridge from connecting to the 5V supply.
+NOTE: the 17mA current source is used to test for a short, if the voltage it causes is not high enough then the PMOS (Q19) that connects the boost to SUPPLY does not enable, also the shutdown hack (Q25) does not enable. These safty features that should prevent a shorted bridge from connecting to the supply.
 
 
 ## Charge To 12V
 
-Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J2 pin 2, 3),  nEN (J2 pin 5), and 0V (J2 pin 8) to the supply return. Connect A0 (J2 pin 1), EN (J2 pin 4) and +5V (J2 pin 6) to supply. Connect 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Jumper for 12V boots (J3 pin 2 to pin 3). Turn on the supply and Check that boot supply is off (e.g. 1.7V)
-    
-```
-{ "12VBOOSTOFF_V":[1.64,]}
-```
-
-Open the 100 Ohm load and Check that the boost voltage is 12V. 
+Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (C4 plus pin) and 0V (J2 pin 3). Jumper for 12V boots (J4 pin 2 to pin 3). Turn on the supply and Check that boot supply is off.
 
 ```
-{ "12VBOOST_V":[12.2,]}
+{ "12VBOOSTOFF_mA":[17.6,]}
 ```
 
-Connect the 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Check BOOST voltage and current draw.
+Open the 0 Ohm short and Check that the boost voltage is 12V. 
 
 ```
-{ "12VBOOSTLD_V":[9.8,],
-"12VBOOSTLD_mA":[260,]}
+{ "12VBOOST_V":[12.15,]}
 ```
 
-NOTE: The boost supply is now in current limit with the 100 Ohm load.
+Connect a 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BOOST voltage and current draw.
+
+```
+{ "12VBOOSTLD_V":[9.9,],
+"12VBOOSTLD_mA":[257,]}
+```
+
+NOTE: The boost supply is in current limit with the 100 Ohm load, and shows how much the SUPPLY needs to be able to provide if a brown out is to be avoided.
 
 
 ## Charge To 24V
 
-Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J2 pin 2, 3),  nEN (J2 pin 5), and 0V (J2 pin 8) to the supply return. Connect A0 (J2 pin 1), EN (J2 pin 4) and +5V (J2 pin 6) to supply. Connect 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Jumper for 24V boots (J3 pin 2 to pin 1). Turn on the supply and Check that boot supply is off (e.g. 1.7V)
+Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (C4 plus pin) and 0V (J2 pin 3). Jumper for 24V boots (J4 pin 1 to pin 2). Turn on the supply and Check that boot supply is off.
+
     
 ```
-{ "24VBOOSTOFF_V":[1.64,]}
+{ "24VBOOSTOFF_mA":[17.6,]}
 ```
 
-Open the 100 Ohm load and Check that the boost voltage is 24V. 
+Open the 0 Ohm short and Check that the boost voltage is 24V. 
 
 ```
-{ "24VBOOST_V":[24.3,]}
+{ "24VBOOST_V":[24.8,]}
 ```
 
-Connect the 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 8). Check BOOST voltage and current draw.
+Connect the 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BOOST voltage and current draw.
 
 ```
-{ "24VBOOSTLD_V":[9.8,],
-"24VBOOSTLD_mA":[261,]}
+{ "24VBOOSTLD_V":[9.9,],
+"24VBOOSTLD_mA":[257,]}
 ```
 
 ## K[1..3] Set and Reset
 
-Setup a current limited supply with 5V and about 400mA limit. Connect A1, A2 (J2 pin 2, 3),  nEN (J2 pin 5), and 0V (J2 pin 8) to the supply return. Connect A0 (J2 pin 1) and +5V (J2 pin 6) to supply. Jumper for 24V boots (J3 pin 2 to pin 1). Connect a terminal of a normally open momentary switch to a 1k Ohm pull-down (0V) and EN (J2 pin 4) with the other terminal of the switch connected to supply. Connect LED load fixture to K1 through K3 and the common.  
+The [Solenoid] firmware can be used to test operation of the bridges with a LED string in place of the coil. 
 
-* NOTE: the LED's light up one string for each selection, e.g. Set is a different LED string than Reset for each K1 through K3. To do this the LED's in the Set string are polarized in the oppisit direction as the ones in Reset. The LED's can't withstand the reverse polarity of the applied voltage so a 1N4148 is also added to the string to block the reverse polarity.
+Setup an RPUno and connect it to the K3 board as shown, but use the LED strings in place of the coils.
 
-Turn on the supply and press the switch to charge the boost. Release the switch and move A0 to supply return and A1 to supply to drive SET-K1. Press the switch and verify the LED string for K1 Set is glowing. Release the switch to turn off the bridge and move A0 back to the supply and A1 to its return and press the switch to charge boost again. Repeat for each RESET-K1, SET-K2, RESET-K2, SET-K3, and RESET-K3. Use the chart on the schematic as a reference of how to connect A0, A1, and A2. Make sure to release before moving any wires. 
+![Example](../Documents/Example.png "Example")
 
-* NOTE: The reason to disable before removing wires is because debounce during (e.g. SET-K2 and RESET-K2) bridge selection can be faster than the transistors can clear (e.g. transistor switching time) and thus cross conduct, which results in instant destruction of the bridge. 
+* NOTE: the LED's light up one string for each selection, e.g. SET is a different LED string than RESET for each pretend coil. To do this the LED's in the SET string are polarized in the opposite direction as the ones in RESET. The LED's can't withstand the reverse polarity of the applied voltage so a 1N4148 is also added to the string to block the reverse polarity.
+
+When the RPUno is reset the firmware will operate each coil with a SET and then a RESET with a one-second pause for each operation. 
+
 
 
