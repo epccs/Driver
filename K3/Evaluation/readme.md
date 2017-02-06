@@ -7,13 +7,19 @@ This shows the setup and methods used for evaluation of K3.
 
 # Table Of Contents:
 
+3. ^1 Setup with RPUno^5
 2. ^0 Cycle test with RPUno^4
 1. ^0 Solenoid Control with RPUno^5
 
 
+## ^1 Setup with RPUno^5
+
+![K3 With RPUno](./K3^1+RPUno^5+RPUadpt^4_wValvesPvBat.jpg "K3 With RPUno")
+
+
 ## ^0 Cycle test with RPUno^4
 
-I let an old version of an RPUno operate three Orbit 58874N valves from 12/17/2016 to 2/4/2017. Most days the three valves were operated ten times each for ten seconds. Some days do not have data for various reasons (e.g. mostly I forgot to read it).
+I let an RPUno^4 operate three Orbit 58874N valves from 12/17/2016 to 2/4/2017. Most days the three valves were operated ten times each for ten seconds. Some days do not have data for various reasons (e.g. mostly I forgot to read it).
 
 [K3^0log]: ./K3^0log.txt
 

@@ -37,11 +37,11 @@ Latching solenoids are driven with a current pulse that last a short duration. T
 This was split out of Irrigate7 to try some ideas. The goal is to return an improved version to the Irrigate7 board.
 
 ```
-        ^2  Done: 
-            WIP: 
-            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^2  Done: Design, Layout, BOM,
+            WIP: Review*,
+            Todo:  Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
-            Remove the PMOS (Q27) that sends boost to plug (discharge on a coil, forget about other uses).
+            Remove the parts that allow boost to connect to plug, just connect it with option to cut jumper.
             Use E3 to enable current source used to test for bridge short (save a power durring night).
 
         ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,

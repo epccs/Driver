@@ -133,6 +133,8 @@ Connect the 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BO
 
 The [Solenoid] firmware can be used to test operation of the bridges with a LED string in place of the coil. 
 
+[Solenoid]: https://github.com/epccs/RPUno/tree/master/Solenoid
+
 Setup an RPUno and connect it to the K3 board as shown, but use the LED strings in place of the coils.
 
 ![Example](../Documents/Example.png "Example")
