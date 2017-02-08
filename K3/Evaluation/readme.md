@@ -19,7 +19,7 @@ This shows the setup and methods used for evaluation of K3.
 
 ## ^0 Cycle test with RPUno^4
 
-I let an RPUno^4 operate three Orbit 58874N valves from 12/17/2016 to 2/4/2017. Most days the three valves were operated ten times each for ten seconds. Some days do not have data for various reasons (e.g. mostly I forgot to read it).
+I let an RPUno^4 operate three Orbit 58874N valves from 12/17/2016 to 2/4/2017. Most days the three valves were operated ten times each for ten seconds. Some days the [K3^0log] does not have data for various reasons (e.g. mostly I forgot to read it).
 
 [K3^0log]: ./K3^0log.txt
 

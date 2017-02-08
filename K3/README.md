@@ -42,7 +42,7 @@ This was split out of Irrigate7 to try some ideas. The goal is to return an impr
             Todo:  Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
             Remove the parts that allow boost to connect to plug, just connect it with option to cut jumper.
-            Use E3 to enable current source used to test for bridge short (save a power durring night).
+            Use E3 to enable current source used to test for bridge short (save some power).
 
         ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
             WIP: Evaluation.
@@ -117,8 +117,7 @@ The idea is to set one of E3, nE2, or nE3 to DISABLE. Then change A0, A1, A2. On
          X  X  X  0V X   X   : ALL DISABLED
          X  X  X  X  5V  X   : ALL DISABLED
          X  X  X  X  X   5V  : ALL DISABLED
-         0V 0V 0V 5V 0V  0V  : CHRG OUT
-        [5V 0V 0V 5V 0V  0V  : /W Q27]
+         X  X  X  5V X   X   : ENABLE 17mA
          5V 0V 0V 5V 0V  0V  : BOOST
          0V 5V 0V 5V 0V  0V  : SET K1
          5V 5V 0V 5V 0V  0V  : RESET K1
@@ -134,7 +133,8 @@ Before a pulse can be sent the boost converter has to build a charge. Once charg
 
 Solenoid options
 
-* Orbit 57861 will work with a 24V pulse.
+* Orbit 57861 seem to work with a 24V pulse.
+* Orbit 58874N valves seem to work with a 24V pulse.
 
 
 
