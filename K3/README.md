@@ -37,19 +37,21 @@ Latching solenoids are driven with a current pulse that last a short duration. T
 This was split out of Irrigate7 to try some ideas. The goal is to return an improved version to the Irrigate7 board.
 
 ```
-        ^2  Done: Design, Layout, BOM,
-            WIP: Review*,
-            Todo:  Order Boards, Assembly, Testing, Evaluation.
+        ^2  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
+            WIP: Evaluation.
+            Todo:   
             *during review the Design may change without changing the revision.
             Remove the parts that allow boost to connect to plug, just connect it with option to cut jumper.
             Use E3 to enable current source used to test for bridge short (save some power).
+            location: 2017-3-30 Bench /w RPUno^6, RPUadpt^5.
 
         ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
             WIP: Evaluation.
             location: 2016-2-5 SWall Encl /w RPUno^5, RPUadpt^4, SLP003-12U, 12V battery.
             
         ^0  location: 2016-12-1 SWall Encl /w RPUno^4, RPUadpt^4, SLP003-12U, 12V battery.
-                      2016-2-4 removed.   
+                      2016-2-4 removed.
+                      2017-3-28 scraped (parts used on ^2).
 ```
 
 
@@ -110,7 +112,7 @@ Latching cost more so why not just use a energized relay. One reason is that ene
 
 The set pulse applies a voltage to the coil and produces a current in a direction that will cause the Laplace force to move the solenoid into that physical location. The reset pulse applies an opposite polarity to the coil. Once in the location some other force (spring, permanent magnet, air pressure... ), will hold the solenoid in that place.
 
-The idea is to set one of E3, nE2, or nE3 to DISABLE. Then change A0, A1, A2. Once A0 ... A2 have been selected the action happens when E3, nE2, and nE3 are all set active. Use the following settings: 
+For this circuit, the idea is to set one of the E3, nE2, or nE3 to DISABLE. Then change A0, A1, A2. Once A0 ... A2 have been selected the action happens when E3, nE2, and nE3 are all set active. Use the following settings:  
 
 ```
          A0 A1 A2 E3 nE2 nE1 : DESC
@@ -127,9 +129,12 @@ The idea is to set one of E3, nE2, or nE3 to DISABLE. Then change A0, A1, A2. On
          5V 5V 5V 5V 0V  0V  : RESET K3
 ```
 
-Before a pulse can be sent the boost converter has to build a charge. Once charged a pulse can be applied to set K1 by writing A0, A1, and A2 inputs simultaneously (e.g. a bus or port operation). Wiring ( e.g. the digitalWrite() function ) makes it easy to change one pin at a time, unfortunately that would send the charge to the first address line that changed, so first set E3 inactive and then change the A0, A1, A2 pins, finally set the E3 pin active to send the pulse.
+Before a pulse can be sent the boost converter has to build a charge. Once charged a pulse can be applied to set K1 by writing A0, A1, and A2 inputs simultaneously (e.g. a bus or port operation). Wiring ( e.g. the digitalWrite() function) makes it easy to change one pin at a time, unfortunately that would send the charge to the first address line that changed, so first set E3 inactive and then change the A0, A1, A2 pins, finally set the E3 pin active to send the latching pulse.
 
 ![Example](./Documents/Example.png "Example")
+
+I've been using CAT5 pair to wire the coils. At nearly 5 Amps peak that may be risky but for a short duration pulse the CAT5 pair seems to work (your mileage may vary, but it is cheap and the twisted pair helps keep the pulse from generating EMI). 
+
 
 Solenoid options
 
