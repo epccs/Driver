@@ -14,6 +14,8 @@ This is a collection of  circuit boards.
 
 [K3]: ./K3
 
+[Hackaday](https://hackaday.io/project/17080-k3)
+[Forum](http://rpubus.org/bb/viewforum.php?f=15)
 
 # CL8
 
@@ -21,3 +23,4 @@ This is a collection of  circuit boards.
 
 [CL8]: ./CL8
 
+[Forum](http://rpubus.org/bb/viewforum.php?f=16)

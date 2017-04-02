@@ -168,12 +168,12 @@ Install RPUadpt bus manager firmware Remote with an ICSP tool.
 cd ~/RPUadpt/Bootload
 make fuse
 ... cruft ...
-cd ~/RPUadptRemote
+cd ~/RPUadpt/Remote
 make isp
 ... cruft ...
 ```
 
-The default bootload address for Host2Remote is '0', which is its own address. Load the i2c-debug firmware onto the first MCU board through the RPUftdi. 
+The default bootload address for Host2Remote is '0', which is its own address. Load the i2c-debug firmware onto the first MCU board under the RPUftdi. 
 
 ```
 cd ~RPUno/i2c-debug
@@ -196,7 +196,7 @@ Exit picocom with C-a, C-x. This is now the bootload address that is broadcast w
 
 To check this use picocom to connect. The DUT's red MNG_LED blinks when the bus manager is addressed over the DTR pair. Exit picocom with C-a, C-x. The MNG_LED should stop blinking after picocom exits.
 
-Now load the [Solenoid] firmware onto the second MCU board under the DUT. 
+Now load the [Solenoid] firmware onto the second MCU board under the RPUadpt. 
 
 ```
 cd ~RPUno/Solenoid

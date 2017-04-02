@@ -7,9 +7,31 @@ This shows the setup and methods used for evaluation of K3.
 
 # Table Of Contents:
 
+5. ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
+4. ^1 Cycle test with RPUno^5
 3. ^1 Setup with RPUno^5
 2. ^0 Cycle test with RPUno^4
 1. ^0 Solenoid Control with RPUno^5
+
+
+## ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
+
+Seems to work on the Bench.
+
+![K3 Rev ^2 Bench](./K3^2_RPUno^6_RPUadpt^5_RPUftdi^4_BenchTest.jpg "K3 ^2 Bench")
+
+A quick video shows picocom used to do a remote reset. After a reset or power up the [Solenoid] firmware cycles through each one to place them in a known state.
+
+[K3 Rev ^2 Bench Video](./http://rpubus.org/Video/RPUno%5E6_RPUadpt%5E5_RPUftdi%5E4_K3%5E2_RemoteReset.mp4 "K3 ^2 Bench Video")
+
+
+## ^1 Cycle test with RPUno^5
+
+I let an RPUno^5 operate three Orbit 58874N valves from 2/5/2017 to 3/29/2017. Most days the three valves were operated ten times each. The runtime got changed a few times as I got drip zones set up for a garden. Some days the [K3^1log] does not have data for various reasons.
+
+[K3^1log]: ./K3^1log.txt
+
+Items of interest: on 3/19/2017 RPUadpt^4 was placed in enclosure, also disconnect the battery thermistor, and removed the LT3652 NTC input pin thermistor.
 
 
 ## ^1 Setup with RPUno^5

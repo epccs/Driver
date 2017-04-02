@@ -22,6 +22,7 @@ Latching solenoids are driven with a current pulse that last a short duration. T
         Latching relay.
 ```
 
+
 # Table Of Contents
 
 1. [Status](#status)
@@ -54,7 +55,6 @@ This was split out of Irrigate7 to try some ideas. The goal is to return an impr
                       2017-3-28 scraped (parts used on ^2).
 ```
 
-
 Debugging and fixing problems i.e. [Schooling](./Schooling/)
 
 Setup and methods used for [Evaluation](./Evaluation/)
@@ -73,14 +73,6 @@ The board is 0.063 thick, FR4, two layer, 1 oz copper with ENIG (gold) finish.
 
 ```
 input SUPPLY guidance: 4V to 7V
-TBD (it is OSH)
-```
-
-## Operating Temperature
-
-```
-Storage Cap: -55 to 105 deg C
-MC34063A meets specifications: -0 to 70 deg C
 TBD (it is OSH)
 ```
 
