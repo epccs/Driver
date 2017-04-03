@@ -20,9 +20,9 @@ Seems to work on the Bench.
 
 ![K3 Rev ^2 Bench](./K3^2_RPUno^6_RPUadpt^5_RPUftdi^4_BenchTest.jpg "K3 ^2 Bench")
 
-A quick video shows picocom used to do a remote reset. After a reset or power up the [Solenoid] firmware cycles through each one to place them in a known state.
+A quick video shows picocom used to do a remote reset. After a reset or power up the [Solenoid] firmware cycles through each latching coil to place them in a known state.
 
-[K3 Rev ^2 Bench Video](./http://rpubus.org/Video/RPUno%5E6_RPUadpt%5E5_RPUftdi%5E4_K3%5E2_RemoteReset.mp4 "K3 ^2 Bench Video")
+[K3 Rev ^2 Bench Video](http://rpubus.org/Video/RPUno%5E6_RPUadpt%5E5_RPUftdi%5E4_K3%5E2_RemoteReset.mp4 "K3 ^2 Bench Video")
 
 
 ## ^1 Cycle test with RPUno^5

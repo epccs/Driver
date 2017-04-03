@@ -215,3 +215,5 @@ When the RPUno is reset the firmware will operate each coil with a SET and then 
 ``` 
 
 Exit picocom with C-a, C-x. If the LED strings each blink for SET and RESET then the half H-bridges are working.
+
+Should look like in this [Video](http://rpubus.org/Video/RPUno%5E6_RPUadpt%5E5_RPUftdi%5E4_K3%5E2_RemoteReset.mp4)
