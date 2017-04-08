@@ -2,9 +2,9 @@
 
 ## Overview
 
-This latching solenoid driver board has three half bridge and a common half bridge that can be used to discharge a (9V/12V/24V) capacitively stored charge into a latching Solenoid coil. A current limited (300mA pk) boost converter is on board to build up the storage capacitor from a low voltage (5V) supply.
+This latching solenoid driver board has three half H-bridge and a common half H-bridge that can be used to discharge a (9V/12V/24V) capacitively stored charge into a latching Solenoid coil. A current limited (300mA pk) boost converter (MC34063A) is on board to build up the stored charge from a low voltage (5V) supply.
 
-Latching solenoids are driven with a current pulse that last a short duration. The pulse flows in a coil and establishes a magnetic field which can do work if it results in a Laplace force that throws the solenoid. The pulse duration hopefully avoids overheating the coils. The Laplace force will not happen unless another magnetic field is present to act on, and will not convert electrical power into mechanical unless the force results in motion. The thrown solenoid has a back emf in the driving coil which may be useful to sense if the solenoid got stuck.
+Latching solenoids are driven with a current pulse that last a short duration. The pulse flows in a coil and establishes a magnetic field which can do work if it results in a Laplace force that throws the solenoid. The pulse duration hopefully avoids overheating the coils. The Laplace force will not happen unless another magnetic field is present to act on, and will not convert electrical power into mechanical unless the force results in motion. The thrown solenoid also has a back emf in the driving coil.
 
 ## Inputs/Outputs/Functions
 

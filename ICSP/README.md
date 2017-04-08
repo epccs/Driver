@@ -2,7 +2,7 @@
 
 ## Overview
 
-Voltage level translation for SPI.
+Voltage level translation for SPI with IOFF.
 
 ## Inputs/Outputs/Functions
 
@@ -14,7 +14,7 @@ Voltage level translation for SPI.
 ## Uses
 
 ```
-        In-Circuit Serial Programing 3.3V target from a 5V Uno (needs a pull-up on input side of !SS)
+        In-Circuit Serial Programing 3.3V target from a 5V Uno
 ```
 
 
@@ -30,20 +30,16 @@ Voltage level translation for SPI.
 
 ![Status](./status_icon.png "ICSP Status")
 
-This was split out of Irrigate7 to try some ideas. The plan was to use this with the input capture (ICP3) on Irrigate7 to measure pulse timing from soil moisture sensors. However CL8 also works with regular current loops on the ADC inputs and can be used with RPUno. Irrigate7 with two pulse sensor inputs seems like a good idea, so this circuit will not be integrated back onto that board but can be used with it. 
-
 ```
-        ^1  Done: Design, Layout, BOM, 
-            WIP:  Review*, 
-            Todo: Order Boards, Assembly, Testing, Evaluation.
+        ^1  Done: Design, Layout, BOM, Review*,
+            WIP: Order Boards,
+            Todo: Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
             fix the connector so the header will work.
+
         ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
-            WIP:  
-            Todo: 
-            *during review the Design may change without changing the revision.
-            location: 2015-12-15 Bench /w Arduino ISP sketch on an Uno 
-            location: 2015-12-25 Shelf /w Arduino ISP sketch on an Uno 
+            location: 2015-12-15 Bench /w ArduinoISP sketch on an Uno 
+            location: 2015-12-25 Shelf /w ArduinoISP sketch on an Uno 
 ```
 
 Debugging and fixing problems i.e. [Schooling](./Schooling/)
@@ -89,11 +85,11 @@ Import the [BOM](./Design/15321,BOM.csv) into LibreOffice Calc (or Excel) with s
 
 # How To Use
 
-A 10kOhm pull-up is on the input side of !SS since the Arduino ISP sketch (e.g. makes an Uno into an ICSP tool) will set the pin as an INPUT and allow it to float and cause sporadic behavior.
+The ArduinoISP sketch in examples that makes an Arduino board into an ICSP tool shows the required wirring connections. I have only used an Uno with this but the other boards should work (even the ones with 3.3V). 
 
-The top seed of SCK is not known.
+The top speed of SCK is not known.
 
-The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down. It is powered by the target so removing power from the target after programming is safe, which seems to be an oversite with many ICSP tools that have the level conversion hardware. 
+The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down. It is powered by the target so removing power from the target after programming is safe.
 
 
 
