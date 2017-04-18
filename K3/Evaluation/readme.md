@@ -7,11 +7,23 @@ This shows the setup and methods used for evaluation of K3.
 
 # Table Of Contents:
 
+6. ^2 Multi Color IDC with RPUno^6
 5. ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
 4. ^1 Cycle test with RPUno^5
 3. ^1 Setup with RPUno^5
 2. ^0 Cycle test with RPUno^4
 1. ^0 Solenoid Control with RPUno^5
+
+
+## ^2 Multi Color IDC with RPUno^6
+
+Perhaps the colors can help get the wiring correct in the enclosure.
+
+![K3^2 Multi Color IDC](./K3^2_RPUno^6_MultiIDC.jpg "K3^2 Multi Color IDC")
+
+Placed in an enclosure
+
+![K3^2 Enclosure](./K3^2+RPUno^5+RPUadpt^5_WithValvesPvBat.jpg "K3^2 Enclosure")
 
 
 ## ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
