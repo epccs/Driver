@@ -33,6 +33,8 @@ Latching solenoids are driven with a current pulse that should last a short dura
 
 # Status
 
+Available through [Tindie](https://www.tindie.com/products/ron-sutherland/k3-a-latching-solenoid-driver-board/)
+
 ![Status](./status_icon.png "K3 Status")
 
 ```
