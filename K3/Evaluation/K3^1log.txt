@@ -826,7 +826,181 @@ That is 71 gal for the orange tree (and other stuff), and I know that is to much
 /1/analog? 7,6,3,2
 {"PWR_V":"12.71","PV_V":"0.65","DISCHRG_A":"0.034","CHRG_A":"0.000"}
 
+4/1/2017:01:42 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"10848"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45504"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"47672"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.42","DISCHRG_A":"0.039","CHRG_A":"0.000"}
 
+4/7/2017:20:30 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11459"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47331"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49368"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.86","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/8/2017:21:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11383"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47575"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49089"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.83","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/9/2017:21:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11676"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47231"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"48661"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.70","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/10/2017:21:28 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11662"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47526"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"48808"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.75","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/11/2017:23:48 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11791"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47898"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49120"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.68","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/13/2017:00:41 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11907"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48210"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49706"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.65","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/13/2017:21:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11992"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47941"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49335"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.86","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/15/2017:00:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11852"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48206"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49429"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.68","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+4/16/2017:01:29 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11753"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48154"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49810"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.60","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/16/2017:16:46 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11859"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48522"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49747"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.91","PV_V":"15.61","DISCHRG_A":"0.019","CHRG_A":"0.000"}
 
 
 

@@ -39,46 +39,48 @@ Check continuity between pin and pad by measuring the reverse body diode drop fr
 
 ## Bias 5V
 
-Setup a current limited supply with 5V and about 30mA limit. Connect A0 (J3 pin 1), A1 (J3 pin 3), A2 (J3 pin 5), and all 0V (J3 pin 2,4,6, J2 pin 3) to the supply return. Connect SUPPLY (J2 pin 2) and VCC (J3 pin 8) to the supply. Connect E3 (which has a pull down) to a switch that connects to supply when closed. Verify that nE1 (J3 pin 10) and nE2 (J3 pin 9) are each pulled down by 10k Ohm resistor. Measure the input current while disabled.
+Setup a current limited supply with 5V and about 30mA limit. Connect A0 (J3 pin 1), A1 (J3 pin 3), A2 (J3 pin 5), and all 0V (J3 pin 2,4,6, J2 pin 3) to the supply return. Connect SUPPLY (J2 pin 2) and VCC (J3 pin 8) to the supply. Connect E3 (J3 pin 7) to a switch that connects to supply when closed. Verify that nE1 (J3 pin 10) and nE2 (J3 pin 9) are each pulled down by 10k Ohm resistor. Measure the input current while disabled.
+
+C2 (2200uF) is not on board, it is mounted in the plugable connector between BOOST (J2 pin 1) and 0V (J2 pin 3).
 
 ``` 
  TODO:  some data from unit(s)
-{"DISABLED_mA":[0.2,0.2,] }
+{"DISABLED_mA":[0.2,0.2, 0.2,0.2,0.2,0.2,] }
 ``` 
 
 Close the switch that connects E3 to the 5V supply to turn on the current source that is used to test for a shorted bridge, wait for it to settle (about one second) and measure that the current drawn is less than 5 mA.
 
 ``` 
  TODO:  some data from unit(s)
-{"ENABLED_mA":[3.7,3.2,] }
+{"ENABLED_mA":[3.7,3.2, 3.5,3.5,3.6,3.6,] }
 ``` 
 
-Add 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Measure the current source.
+Add 100 Ohm between BOOST (J2 pin 1) and 0V (J2 pin 3) to discharge C2, then short circuit the added resistor. Close the switch that connects E3 to the 5V supply. Measure the current source.
 
 ``` 
-{ "CURR_SOURCE_mA":[17.6,16.9,] }
+{ "CURR_SOURCE_mA":[17.6,16.9, 16.6,17.6,17.2,17.4,] }
 ``` 
 
 
 ## Charge To 9V
 
-Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (C4 plus pin) and 0V (J2 pin 3). Turn on the supply and Check that boot supply is off (e.g. only current source). Which shows that a shorted bridge will lock out the supply.
+Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (J2 pin 1) and 0V (J2 pin 3). Turn on the supply and Check that boot supply is off (e.g. only current source). Which shows that a shorted bridge will lock out the supply.
 
 ```
-{ "9VBOOSTOFF_mA":[17.6,16.9,]}
+{ "9VBOOSTOFF_mA":[17.6,16.9, 16.5,17.6,17.2,17.4,]}
 ```
 
-Open the 0 Ohm load and Check that the boost voltage is 9V.
+Open the short and Check that the boost voltage is 9V.
 
 ```
-{ "9VBOOST_V":[9.2,9.3]}
+{ "9VBOOST_V":[9.2,9.3, 9.2,9.2,9.2,9.1,]}
 ```
 
-Connect a 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BOOST voltage and current draw.
+Connect a 100 Ohm load between BOOST (J2 pin 1) and 0V (J2 pin 3). Check BOOST voltage and current draw.
 
 ```
-{ "9VBOOSTLD_V":[9.16,9.4,],
-"9VBOOSTLD_mA":[215,236,]}
+{ "9VBOOSTLD_V":[9.16,9.4, 9.1,9.1,9.1,9.0],
+"9VBOOSTLD_mA":[215,236, 241,220,220,216,]}
 ```
 
 NOTE: the 17mA current source is used to test for a short, if the voltage it causes is not high enough then the PMOS (Q19) that connects the boost to SUPPLY does not enable, also the shutdown hack (Q25) does not enable. These safty features that should prevent a shorted bridge from connecting to the supply.
@@ -86,23 +88,23 @@ NOTE: the 17mA current source is used to test for a short, if the voltage it cau
 
 ## Charge To 12V
 
-Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (C4 plus pin) and 0V (J2 pin 3). Jumper for 12V boots (J4 pin 2 to pin 3). Turn on the supply and Check that boot supply is off.
+Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (J2 pin 1) and 0V (J2 pin 3). Jumper for 12V boots (J4 pin 2 to pin 3). Turn on the supply and Check that boot supply is off.
 
 ```
-{ "12VBOOSTOFF_mA":[17.6,16.9,]}
+{ "12VBOOSTOFF_mA":[17.6,16.9, 16.6,17.6,17.2,17.4,]}
 ```
 
-Open the 0 Ohm short and Check that the boost voltage is 12V. 
+Open the short and Check that the boost voltage is 12V. 
 
 ```
-{ "12VBOOST_V":[12.15,12.3,]}
+{ "12VBOOST_V":[12.15,12.3, 12.1,12.2,12.2,12.1,]}
 ```
 
-Connect a 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BOOST voltage and current draw.
+Connect a 100 Ohm load between BOOST (J2 pin 1) and 0V (J2 pin 3). Check BOOST voltage and current draw.
 
 ```
-{ "12VBOOSTLD_V":[9.9,9.8,],
-"12VBOOSTLD_mA":[257,264,]}
+{ "12VBOOSTLD_V":[9.9,9.8, 10.0,10.0,10.1,10.0,],
+"12VBOOSTLD_mA":[257,264, 275,275,278,273,]}
 ```
 
 NOTE: The boost supply is in current limit with the 100 Ohm load, and shows how much the SUPPLY needs to be able to provide if a brown out is to be avoided.
@@ -110,24 +112,24 @@ NOTE: The boost supply is in current limit with the 100 Ohm load, and shows how 
 
 ## Charge To 24V
 
-Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (C4 plus pin) and 0V (J2 pin 3). Jumper for 24V boots (J4 pin 1 to pin 2). Turn on the supply and Check that boot supply is off.
+Setup current limited supply with 5V and about 400mA limit. Connect A1, A2 (J3 pin 3, 5), and 0V (J3 pin 2,4,6; J2 pin 3) to the supply return.  Connect A0, VCC (J3 pin 1, 8) and SUPPLY (J2 pin 2) to supply. Connect E3 (which has a pull down) to a switch that is connected to supply when closed. Connect 0 Ohm short between BOOST (J2 pin 1) and 0V (J2 pin 3). Jumper for 24V boots (J4 pin 1 to pin 2). Turn on the supply and Check that boot supply is off.
 
     
 ```
-{ "24VBOOSTOFF_mA":[17.6,16.9,]}
+{ "24VBOOSTOFF_mA":[17.6,16.9, 16.7,17.7,17.2,17.5,]}
 ```
 
-Open the 0 Ohm short and Check that the boost voltage is 24V. 
+Open the short and Check that the boost voltage is 24V. 
 
 ```
-{ "24VBOOST_V":[24.8,24.5]}
+{ "24VBOOST_V":[24.8,24.5, 24.3,24.5,24.5,24.2,]}
 ```
 
-Connect the 100 Ohm load between BOOST (C4 plus pin) and 0V (J2 pin 3). Check BOOST voltage and current draw.
+Connect the 100 Ohm load between BOOST (J2 pin 1) and 0V (J2 pin 3). Check BOOST voltage and current draw.
 
 ```
-{ "24VBOOSTLD_V":[9.9,9.8,],
-"24VBOOSTLD_mA":[257,264,]}
+{ "24VBOOSTLD_V":[9.9,9.8, 10.0,10.0,10.1,10.0,],
+"24VBOOSTLD_mA":[257,264, 275,275,278,273,]}
 ```
 
 ## K[1..3] Set and Reset

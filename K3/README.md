@@ -42,12 +42,13 @@ Latching solenoids are driven with a current pulse that should last a short dura
             *during review the Design may change without changing the revision.
             Remove the parts that allow boost to connect to plug, just connect it with option to cut jumper.
             Use E3 to enable current source used to test for bridge short (save some power).
+            Ship with C2 on pluggable header though I recommend soldering it when the current pulse is much over an Amp.
             location: 2017-3-30 Bench /w RPUno^6, RPUadpt^5.
                       2017-4-17 SxSXWall Encl /w RPUno^5, RPUadpt^4, SLP003-12U, 12V battery.
 
         ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
             location: 2016-2-5 SxSXWall Encl /w RPUno^5, RPUadpt^4, SLP003-12U, 12V battery.
-                      2016-4-17 removed, waiting in scrap bin.
+                      2016-4-17 Bench.
             
         ^0  location: 2016-12-1 SWall Encl /w RPUno^4, RPUadpt^4, SLP003-12U, 12V battery.
                       2016-2-4 removed, waiting in scrap bin.
