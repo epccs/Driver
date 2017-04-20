@@ -90,7 +90,9 @@ Solder connectors or try some pogo pins (e.g. [ICT-100-T] ), though I fight with
 
 [ICT-100-T]: http://www.mouser.com/Search/Refine.aspx?Keyword=ICT-100-T
 
-The ArduinoISP sketch in examples that makes an Arduino board into an ICSP tool shows the required wirring connections. I have only used an Uno with this but the other boards should work (even the ones with 3.3V). 
+The [ArduinoISP] sketch found in Arduino IDE examples that makes an Arduino board into an ICSP tool shows the required wirring connections. I have only used an Uno with this but the other boards should work (even the ones with 3.3V). 
+
+[ArduinoISP]: https://github.com/arduino/Arduino/blob/master/build/shared/examples/11.ArduinoISP/ArduinoISP/ArduinoISP.ino
 
 The top speed of SCK is not yet known.
 
