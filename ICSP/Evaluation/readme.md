@@ -7,7 +7,18 @@ This shows the setup and methods used for evaluation of ICSP.
 
 # Table Of Contents:
 
+2. ^1 Programing RPUadpt
 1. ^0 SPI loopback Test
+
+
+## ^1 Programing RPUadpt
+
+An Arduino Uno with the [ArduinoISP] example sketch is used to load an [RPUadpt] ^5 with firmware.
+
+[ArduinoISP]: https://github.com/arduino/Arduino/blob/master/build/shared/examples/11.ArduinoISP/ArduinoISP/ArduinoISP.ino
+[RPUadpt]: https://github.com/epccs/RPUadpt
+
+![^1 ICSP Programing RPUadpt](./ICSP^1_RPUadpt^5_programing.jpg "^1 ICSP Programing RPUadpt")
 
 
 ## ^0 SPI loopback Test

@@ -33,38 +33,14 @@ Check continuity between pin and pad by measuring the reverse body diode drop fr
 
 ## Bias 5V
 
-Setup a current limited supply with 5V and about 30mA limit. Connect the SPI input 0V (J1 pin 6) to the supply return. Connect +5V (J1 pin 2), MOSI (J1 pin 4) and SCK (J1 pin 3) to the supply. 
-
-``` 
-{"DISABLED_mA":[] }
-``` 
+Setup a current limited supply with 5V and about 30mA limit. Connect the SPI input 0V (J1 pin 6) to the supply return. Connect the supply to input +5V (J1 pin 2), MOSI (J1 pin 4) and SCK (J1 pin 3) to the supply. 
 
 Connect the target voltage to the supply (J2 pin 2). Note the 0V is connected between to J1 and J2. 
 
-``` 
-{"ENABLED_mA":[] }
-``` 
-
 Pull down SCK (J1 pin 3) with a connection to the supply return.
-
-``` 
-{ "SCK_mA":[] }
-``` 
 
 Pull down MOSI (J1 pin 4) with a connection to the supply return, pull up SCK (J1 pin 3) to the supply.
 
-``` 
-{ "MOSI_mA":[] }
-``` 
-
 Pull down nSS (J1 pin 5) with a connection to the supply return, pull up MOSI (J1 pin 4) to the supply.
 
-``` 
-{ "nSS_mA":[] }
-``` 
-
 Pull down MISO (J2 pin 1) with a connection to the supply return, open nSS.
-
-``` 
-{ "MISO_mA":[] }
-``` 
