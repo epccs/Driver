@@ -14,7 +14,7 @@ This is a collection of  circuit boards.
 
 [K3]: ./K3
 
-[Store](https://www.tindie.com/products/ron-sutherland/k3/)
+[Store](https://www.tindie.com/products/ron-sutherland/k3-a-latching-solenoid-driver-board/)
 
 [Forum](http://rpubus.org/bb/viewforum.php?f=15)
 
@@ -33,3 +33,5 @@ This is a collection of  circuit boards.
 [ICSP] is a way to level shift an SPI interface with the IOFF feature for an ICSP tool.
 
 [ICSP]: ./ICSP
+
+[Store](https://www.tindie.com/products/ron-sutherland/icsp-a-board-for-spi-level-shift-with-ioff/)

@@ -28,6 +28,8 @@ Voltage level translation for SPI with IOFF.
 
 # Status
 
+Available through [Tindie](https://www.tindie.com/products/ron-sutherland/icsp-a-board-for-spi-level-shift-with-ioff/)
+
 ![Status](./status_icon.png "ICSP Status")
 
 ```
