@@ -1,0 +1,206 @@
+Using three Orbit 58874N valves
+Location: SxSWEncl (S by SW enclosure)
+K3^2, RPUadpt^4 at address '1', RPUno^5 Solenoid program has these save (eeprom) settings
+
+/1/save 1,10
+{"K1":{"delay_start_sec":"1","runtime_sec":"150","delay_sec":"3450","cycles":"10"}}
+/1/save 2,10
+{"K2":{"delay_start_sec":"600","runtime_sec":"150","delay_sec":"3450","cycles":"10"}}
+/1/save 3,10
+{"K3":{"delay_start_sec":"1200","runtime_sec":"150","delay_sec":"3450","cycles":"10"}}
+
+4/18/2017:23:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11927"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48021"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50389"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/19/2017:20:35 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11923"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48159"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50693"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.91","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/20/2017:23:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11828"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48131"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50291"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.73","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/22/2017:00:25 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11908"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48253"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50235"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.81","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/23/2017:01:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12027"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48316"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50445"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.68","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/24/2017:01:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11775"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48298"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51572"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.83","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/25/2017:01:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11860"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47704"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50982"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/26/2017:02:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11616"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47528"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50963"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.62","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/27/2017:00:05 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11821"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47627"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51233"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.83","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+4/28/2017:00:22 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11846"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47703"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51321"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.91","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/29/2017:00:25 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11709"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47556"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51009"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.60","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/30/2017:00:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11372"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47637"}}
+/1/time? 2
+"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50649"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.57","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+
+
+

@@ -7,12 +7,20 @@ This shows the setup and methods used for evaluation of K3.
 
 # Table Of Contents:
 
+7. ^2 Cycle test with RPUno^5
 6. ^2 Multi Color IDC with RPUno^6
 5. ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
 4. ^1 Cycle test with RPUno^5
 3. ^1 Setup with RPUno^5
 2. ^0 Cycle test with RPUno^4
 1. ^0 Solenoid Control with RPUno^5
+
+
+## ^2 Cycle test with RPUno^5
+
+I let an RPUno^5 (with mod to measure RAW_PV input) operate three Orbit 58874N valves from 4/18/2017 to 4/30/2017. The three valves were operated ten times each day. The setup is running drip zones for my garden. Some days the [K3^3log] does not have data for various reasons.
+
+[K3^2log]: ./K3^2log.txt
 
 
 ## ^2 Multi Color IDC with RPUno^6
