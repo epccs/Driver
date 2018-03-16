@@ -64,7 +64,16 @@ Check correct assembly and function with [Testing](./Testing/)
 
 # Bill of Materials
 
-Import the [BOM](./Design/18066,BOM.csv) into LibreOffice Calc (or Excel) with semicolon separated values, or use a text editor.
+The BOM is a CVS file(s), import it into a spreadsheet program like LibreOffice Calc (or Excel), or use a text editor.
+
+Option | BOM's included
+----- | ----- 
+A. | [BRD] 
+M. | [BRD] [SMD] [HDR] 
+
+[BRD]: ./Design/18066BRD,BOM.csv
+[SMD]: ./Design/18066SMD,BOM.csv
+[HDR]: ./Design/18066HDR,BOM.csv
 
 
 # How To Use
