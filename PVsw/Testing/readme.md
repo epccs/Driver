@@ -16,11 +16,11 @@ This is a list of Test preformed on each board after assembly.
 
 ## Basics
 
-These tests are for an assembled USBart board 18066^0 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
+These tests are for an assembled PVsw board 18074^0 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
 
 __Warning__: never use a soldering iron to rework ceramic capacitors due to the thermal shock.
 
-![ItemsForTest](./18066_ItemsUsedForTest.jpg "Items used for test")
+![ItemsForTest](./18074_ItemsUsedForTest.jpg "Items used for test")
 
 ## Assembly check
 

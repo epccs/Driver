@@ -1,0 +1,8 @@
+LINE, REF, QTY, EPCCS TYP,EPCCS PN,MFG@PN, DESCRIPTION, NOTES, COST EA, LINE COST,BIN
+,,,,,,PVsw Headers,,,TOTAL,
+,,,,,,3/15/18 (18074^0),,,=SUM(J5:J100),
+,,,,,,,,,,
+1,D1,1,D-LED,5MMGN,CREE@C503B-GCN-CY0C0791,LED GREEN 5MM 3.2V@20MA,(1),0.21,=C5*I5,ONESHOT
+,,,,,,,,,,
+,,,,,,NOTES,,,,
+,,,,,,(1) Alternate part with same or better rating allowed,,,,
