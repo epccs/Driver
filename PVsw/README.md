@@ -1,21 +1,24 @@
-# USBuart Hardware
+# PVsw Hardware
 
 ## Overview
 
-The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC07A buffer for use with logic levles from 5V to 1.8V. 
+A high side current sense and PMOS switch for use with 12V solar panel.
+
 
 ## Inputs/Outputs/Functions
 
 ```
-        UART lines
-        Target side power controls IOFF when port is closed
+        12V solar panels with 22V open circuit voltage 
+        High Side Enable is logic high above 2.7V and low bellow 0.5V
+        CURRent sense is 4% accurate from a 3% ZXCT1087 that measures a 1% 0.0.018 high side shunt.
+        Solar panel voltage (PV_V) is 2.2% accurate from a divider with a 0.1% 100k and a 1% 10k.
 ```
 
 
 ## Uses
 
 ```
-        With port closed a connection to RPUadpt does not glitch the RS422 bus.
+        Connect a 4A solar panel to a 40AHr LA battery and control with RPUlux.
 ```
 
 
@@ -47,15 +50,15 @@ Setup and methods used for [Evaluation](./Evaluation/)
 
 The board is 0.063 thick, FR4, two layer, 1 oz copper with ENIG (gold) finish.
 
-![Top](./Documents/18066,Top.png "Top")
-![TAssy](./Documents/18066,TAssy.jpg "Top Assy")
-![Bottom](./Documents/18066,Bottom.png "Bottom")
-![BAssy](./Documents/18066,BAssy.jpg "Bottom Assy")
+![Top](./Documents/18074,Top.png "Top")
+![TAssy](./Documents/18074,TAssy.jpg "Top Assy")
+![Bottom](./Documents/18074,Bottom.png "Bottom")
+![BAssy](./Documents/18074,BAssy.jpg "Bottom Assy")
 
 
 ## Electrical Schematic
 
-![Schematic](./Documents/18066,Schematic.png "Schematic")
+![Schematic](./Documents/18074,Schematic.png "Schematic")
 
 ## Testing
 
@@ -72,17 +75,16 @@ A. | [BRD]
 M. | [BRD] [SMD] [HDR]
 W. | [BRD] [SMD] [HDR] [PLUG]
 
-[BRD]: ./Design/18066BRD,BOM.csv
-[SMD]: ./Design/18066SMD,BOM.csv
-[HDR]: ./Design/18066HDR,BOM.csv
-[PLUG]: ./Design/18066PLUG,BOM.csv
+[BRD]: ./Design/18074BRD,BOM.csv
+[SMD]: ./Design/18074SMD,BOM.csv
+[HDR]: ./Design/18074HDR,BOM.csv
+[PLUG]: ./Design/18074PLUG,BOM.csv
 
 
 # How To Use
 
-Connect target UART to USB UART (e.g. RX to target TX and TX to target RX). The main consideration is that the Target voltage needs connecto to IOREF so the 74LVC07A buffer will operate at that voltage level. 
+TBD
 
-When the serial port is open a current source will drive 17mA into the target's IOREF input, it is not enough to power the target however it will provide bias for the buffer on RPUadpt's serial input. When the port is closed RPUadpt will have no power on its buffer which will allow both sides to set the IOFF state and thus allow connection (or disconnection) that have a minimized glitch.
-
+Note: a ZXCT1086 will be used at some point, but for now it is a ZXCT1087.
 
 
