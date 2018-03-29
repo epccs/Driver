@@ -32,6 +32,12 @@ This is a collection of  circuit boards.
 
 [Hackaday](https://hackaday.io/project/17080-k3)
 
+# PVsw
+
+[PVsw] high side current sense and PMOS switch. 
+
+[PVsw]: ./PVsw
+
 # USBuart
 
 [USBuart] a USB serail bridge that is level shifted for use with logic levles from 5V to 1.8V. 
