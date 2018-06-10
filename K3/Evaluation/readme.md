@@ -7,13 +7,33 @@ This shows the setup and methods used for evaluation of K3.
 
 # Table Of Contents:
 
-7. ^2 Cycle test with RPUno^5
-6. ^2 Multi Color IDC with RPUno^6
-5. ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
-4. ^1 Cycle test with RPUno^5
-3. ^1 Setup with RPUno^5
-2. ^0 Cycle test with RPUno^4
+1. ^2 Replaced RPUno^5 with RPUno^9
+1. ^2 Year+ Cycle test with RPUno^5
+1. ^2 Cycle test with RPUno^5
+1. ^2 Multi Color IDC with RPUno^6
+1. ^2 Bench Test with RPUno^6 RPUadpt^5 and RPUftdi^4
+1. ^1 Cycle test with RPUno^5
+1. ^1 Setup with RPUno^5
+1. ^0 Cycle test with RPUno^4
 1. ^0 Solenoid Control with RPUno^5
+
+
+## ^2 Replaced RPUno^5 with RPUno^9
+
+The SXSW enclosure has been running for over a year, but RPUno^9 is ready. There are wiring changes and new [KNL] software.  Now there will be some blinking lights at night, perhaps the LED's are silly in the present form. 
+
+[KNL]: https://github.com/epccs/RPUno/tree/master/KNL
+
+![K3^2 and RPUno^9](./K3^2+RPUno^9+RPUadpt^5_wValvesLedStringsPvBat.jpg "K3^2 and RPUno^9")
+
+
+## ^2 Year+ Cycle test with RPUno^5
+
+I ran it for over a year with 10 cycles per valve per day, problems are noted in the log file [K3^2log+RPUno^9]. 
+
+[K3^2log+RPUno^9]: ./K3^2+RPUno^5_log.txt
+
+One thing is clear the Orbit valves do not get stuck when operated like this. I was having a problem where they would get stuck open, most likely that was caused by the hard water mineral build. Perhaps the frequent operation dislodges the buildup before it reaches a critical level. Unfortunately, the valve is no longer on the mainstream market. It received a lot of complaints about sticking (which were true from my experience). Having said that I still like the valve design, it is incredibly fast acting and is clearly durable when used with a frequency beyond what the controller it was sold with did. There are other valve options I will explore when I can.
 
 
 ## ^2 Cycle test with RPUno^5

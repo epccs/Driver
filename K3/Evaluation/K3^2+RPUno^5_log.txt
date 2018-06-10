@@ -1,0 +1,5518 @@
+Using three Orbit 58874N valves
+Location: SxSWEncl (S by SW enclosure)
+K3^2, RPUadpt^4 at address '1', RPUno^5 Solenoid program has these save (eeprom) settings
+
+/1/save 1,10
+{"K1":{"delay_start_sec":"1","runtime_sec":"150","delay_sec":"3450","cycles":"10"}}
+/1/save 2,10
+{"K2":{"delay_start_sec":"600","runtime_sec":"150","delay_sec":"3450","cycles":"10"}}
+/1/save 3,10
+{"K3":{"delay_start_sec":"1200","runtime_sec":"150","delay_sec":"3450","cycles":"10"}}
+
+4/18/2017:23:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11927"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48021"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50389"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/19/2017:20:35 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11923"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48159"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50693"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.91","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/20/2017:23:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11828"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48131"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50291"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.73","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/22/2017:00:25 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11908"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48253"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50235"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.81","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/23/2017:01:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12027"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48316"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50445"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.68","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/24/2017:01:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11775"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48298"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51572"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.83","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/25/2017:01:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11860"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47704"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50982"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/26/2017:02:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11616"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47528"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50963"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.62","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/27/2017:00:05 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11821"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47627"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51233"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.83","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+4/28/2017:00:22 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11846"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47703"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51321"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.91","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+4/29/2017:00:25 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11709"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47556"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51009"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.60","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+4/30/2017:00:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11372"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47637"}}
+/1/time? 2
+"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50649"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.57","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/4/2017:23:50 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11912"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47960"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52253"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/5/2017:22:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12608"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48678"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53169"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.22","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/6/2017:22:50 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11748"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47444"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52337"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.91","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/7/2017:17:29 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"10942"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"46438"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50022"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.80","PV_V":"16.47","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+5/8/2017:19:13 evening
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11423"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47024"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50965"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"8.16","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/9/2017:20:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11238"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47373"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50446"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.70","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/10/2017:21:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11326"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47492"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50858"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.73","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/11/2017:23:47 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11711"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48079"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51703"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.83","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/13/2017:00:30 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11548"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48320"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52179"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.94","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/13/2017:23:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11685"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48058"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52212"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/14/2017:23:07 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11580"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47682"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51519"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.81","DISCHRG_A":"0.039","CHRG_A":"0.000"}
+
+5/15/2017:23:39 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11559"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47346"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51526"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.70","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/17/2017:00:24 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11260"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47396"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"50922"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.60","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/18/2017:00:14 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11133"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47471"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51396"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.78","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/18/2017:23:18 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11430"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47723"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51721"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.73","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/20/2017:00:41 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11444"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47477"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51215"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.68","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+5/20/2017:21:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11606"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47543"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51549"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.91","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/21/2017:17:20 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11585"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48333"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52223"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.80","PV_V":"15.51","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+5/23/2017:00:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11733"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48334"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52204"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/23/2017:22:50 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12077"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48646"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52708"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/25/2017:00:35 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11861"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47842"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52494"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"1.14","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+5/26/2017:02:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11738"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47534"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51908"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.83","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+5/27/2017:00:29 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11513"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47372"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52154"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.78","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/27/2017:23:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11629"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48053"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52355"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.83","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/29/2017:00:14 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11743"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48399"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52484"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.81","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/29/2017:23:34 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11742"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48770"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52391"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.96","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+6/2/2017:22:52 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11586"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47874"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52834"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/4/2017:00:30 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12286"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48509"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53145"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"1.12","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+6/6/2017:00:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12710"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48492"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54716"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"1.14","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/6/2017:23:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12386"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47969"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53600"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"1.19","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/7/2017:23:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12261"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48245"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54261"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/9/2017:00:36 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12289"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48476"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53877"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/9/2017:17:24 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12159"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48843"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54770"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"15.35","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+6/10/2017:23:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11707"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47678"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53392"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.91","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+6/11/2017:23:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11860"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47164"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53197"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.94","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+6/12/2017:15:55 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11952"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47324"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52907"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"13.04","PV_V":"15.30","DISCHRG_A":"0.000","CHRG_A":"0.027"}
+
+6/13/2017:21:55 night (battry was charged all night so cycles started manualy) 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11597"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47425"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53414"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/14/2017:21:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11796"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47802"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53354"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.94","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/15/2017:22:50 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12102"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"53210"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"58795"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/16/2017:23:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11924"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47455"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"61666"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.07","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+
+6/18/2017:16:00 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12513"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"50442"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"59202"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"13.02","PV_V":"14.81","DISCHRG_A":"0.000","CHRG_A":"0.033"}
+
+6/19/2017:22:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"10254"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"36170"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"40158"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/21/2017:00:25 night (note the water was on and so had low flow durring a cycle)
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"8662"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"34504"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"39135"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.25","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+6/22/2017:00:14 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12096"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"36808"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"42787"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/22/2017:23:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11824"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"53646"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"62832"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.30","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+6/24/2017:00:47 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12772"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"52336"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"58808"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"1.14","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/24/2017:20:55 night (note found a dip line had seperated from a T on the K1 line after looking at this data) 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"16673"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40725"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49786"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.43","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/25/2017:17:05 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11964"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"50984"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53638"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.80","PV_V":"15.01","DISCHRG_A":"0.016","CHRG_A":"0.000"}
+
+6/27/2017:01:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11466"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"43275"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51408"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"1.19","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/28/2017:00:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"14502"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"51253"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"65781"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.12","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/28/2017:21:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12406"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"48009"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54329"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+6/30/2017:01:12 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12896"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"51283"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"61870"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.09","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+6/30/2017:21:26 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12599"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47848"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"61571"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"1.17","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+7/2/2017:00:04 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12581"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"54489"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"60758"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/2/2017:21:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12857"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"52184"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"57150"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/7/2017:00:22 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"10571"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"35933"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"48580"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.32","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+7/7/2017:23:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"10480"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"35573"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52688"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.53","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+7/8/2017:22:36 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12423"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"46535"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52477"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.38","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/10/2017:00:32 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12390"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"44707"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54762"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/10/2017:22:08 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12922"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45065"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54898"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.43","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+7/12/2017:00:32 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11959"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"43017"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53861"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"1.14","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/12/2017:22:30 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12775"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"47663"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"56771"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.32","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+7/13/2017:23:29 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12941"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"53601"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"60404"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"1.30","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+7/14/2017:21:24 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"14008"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45765"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"59155"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/15/2017:21:29 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11607"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40130"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53287"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/16/2017:17:17 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12435"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40965"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"58432"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"15.22","DISCHRG_A":"0.026","CHRG_A":"0.000"}
+
+7/17/2017:16:19 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11370"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40734"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52338"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.92","PV_V":"15.01","DISCHRG_A":"0.000","CHRG_A":"0.019"}
+
+7/18/2017:22:17 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11728"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41979"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53500"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/19/2017:19:52 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11752"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42320"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54093"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"2.42","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+7/20/2017:23:54 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12034"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42367"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54328"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"1.12","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/22/2017:02:36 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12281"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42795"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54465"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"1.12","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/23/2017:01:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12192"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45013"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54844"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"1.12","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/24/2017:23:37 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11365"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40935"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52903"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.55","PV_V":"1.01","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+7/25/2017:12:42 day (charging car bat) removed the 100k Ohm fixed resistor so it will go to 14.3V
+/1/analog? 7,6,3,2
+{"PWR_V":"13.73","PV_V":"16.13","DISCHRG_A":"0.000","CHRG_A":"0.108"}
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11897"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"43476"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54236"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"13.99","PV_V":"1.17","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/27/2017:00:26 day (charging the car batery again, going to let it go over night)
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12648"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42449"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54693"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"14.37","PV_V":"1.30","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+7/28/2017:00:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"14043"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45263"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"56437"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"1.25","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/28/2017:21:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11955"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42591"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53731"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"1.19","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/29/2017:22:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12546"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41362"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54060"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+7/30/2017:22:57 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11903"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42004"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53706"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"1.25","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+8/3/2017:20:08 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12671"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42782"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53959"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.88","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/4/2017:22:03 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11830"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41103"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54042"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"1.27","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/5/2017:22:07 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12532"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45189"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54206"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"1.22","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/6/2017:22:52 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11894"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"44539"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54040"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.19","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/8/2017:00:42 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11925"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41614"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54008"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.07","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/8/2017:23:35 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"13485"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"43972"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51827"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.09","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+8/9/2017:23:46 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11038"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40239"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53490"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.25","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/11/2017:02:37 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11810"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41220"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53534"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"1.07","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/12/2017:00:08 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12402"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42431"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54234"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.22","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+8/13/2017:01:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11871"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41580"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54233"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/13/2017:21:39 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11606"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41600"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53382"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.22","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/15/2017:00:37 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12070"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41168"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53289"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.01","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/15/2017:23:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11795"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41136"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53112"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.99","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+8/16/2017:23:05 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11878"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40556"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52667"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.04","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/18/2017:00:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11832"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"39779"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52818"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.91","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/19/2017:00:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12345"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41968"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53247"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/20/2017:00:01 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12080"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40670"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51782"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/20/2017:21:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12243"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40821"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"49268"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"13.84","PV_V":"1.30","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/21/2017:20:25 night, note battery charged last night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12016"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42554"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53445"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.83","PV_V":"1.22","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+8/23/2017:00:27 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12739"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45159"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54772"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"1.12","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/23/2017:21:51 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"14887"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"44364"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54875"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.96","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/25/2017:01:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11706"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41669"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52625"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.01","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/26/2017:00:13 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12439"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42106"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"54237"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"1.12","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/28/2017:00:13 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"10679"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"33590"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"42506"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.17","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/29/2017:01:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11296"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40313"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53597"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.19","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+8/29/2017:22:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12984"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"44193"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"59286"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.25","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+8/31/2017:00:24 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12736"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"45942"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"60539"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"1.19","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/1/2017:00:36 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12436"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41740"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"53796"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.99","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/1/2017:23:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"13826"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"43194"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"63770"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"1.09","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/3/2017:01:21 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11976"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40933"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52313"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"1.04","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/4/2017:00:26 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12728"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"42279"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"55081"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.07","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/7/2017:21:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11713"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"39986"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51856"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"1.25","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/9/2017:01:15 night (charging battery)
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11694"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"40439"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52382"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"14.24","PV_V":"1.01","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/9/2017:23:18 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11729"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"39835"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"51690"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"1.01","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/10/2017:21:05 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"11951"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41044"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"52213"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"1.22","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/11/2017:22:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"12746"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"41170"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"57924"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"1.22","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/12/2017:23:06 night, flow meter wiring corrosion, it was expected to fail since the connector has been wet for some time.
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"8467"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"29170"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"44658"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"1.22","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+9/13/2017:22:10 night, flow meter is not connected
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"1.27","DISCHRG_A":"0.017","CHRG_A":"0.000"}
+
+9/15/2017:00:36 night, flow meter is not connected
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.94","DISCHRG_A":"0.014","CHRG_A":"0.000"}
+
+9/15/2017:22:22 night, flow meter is not connected
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.94","DISCHRG_A":"0.013","CHRG_A":"0.000"}
+
+9/17/2017:00:54 night, flow meter is not connected
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.88","DISCHRG_A":"0.014","CHRG_A":"0.000"}
+
+10/13/2017:22:43 night, flow meter has been replaced and will now use 4mA or 15mA, counts are not valid yet 
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.73","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/14/2017:22:02 night, flow meter counts are from Orbit
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1727"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12044"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13696"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.70","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+10/15/2017:23:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1297"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11933"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13747"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.68","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+10/16/2017:22:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1309"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11976"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14201"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.75","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/17/2017:23:22 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1331"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12087"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14313"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.78","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/19/2017:00:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1215"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12049"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14460"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.78","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+10/20/2017:00:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1228"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11911"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14397"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.68","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+10/20/2017:23:28 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1279"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11882"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13963"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.68","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/21/2017:21:30 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1225"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11783"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14044"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.62","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/23/2017:00:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1175"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11789"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14122"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.57","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+10/24/2017:01:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1175"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11964"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14345"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.60","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+10/24/2017:22:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1143"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12023"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14438"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.73","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/25/2017:22:52 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1143"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11996"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14518"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.73","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+10/27/2017:00:27 night (charging battery)
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1146"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12088"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14596"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"14.27","PV_V":"0.60","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+10/28/2017:01:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1142"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12197"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14462"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.55","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+10/29/2017:01:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1139"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12157"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14559"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.55","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/01/2017:23:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1111"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12183"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14366"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.62","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+11/03/2017:00:46 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1119"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12200"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14407"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.55","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/03/2017:21:21 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1090"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12310"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14144"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.80","PV_V":"0.70","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/05/2017:00:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1102"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12167"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14214"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.68","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/05/2017:21:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1097"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12391"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14439"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.52","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/06/2017:22:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1084"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12240"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14611"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.60","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+11/07/2017:23:57 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1075"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12188"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14620"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.62","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/09/2017:00:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1090"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12298"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14755"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.60","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/10/2017:00:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1114"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12270"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14738"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.49","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/11/2017:00:08 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1115"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12315"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14666"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/11/2017:23:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1136"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12400"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14470"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.47","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/13/2017:00:29 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1144"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12387"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14694"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.60","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/14/2017:00:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1158"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12436"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14935"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/15/2017:01:26 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1131"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12378"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14489"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.42","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/16/2017:01:47 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1276"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12307"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14838"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.42","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/16/2017:23:51 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1619"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12397"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14838"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/18/2017:00:10 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1648"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12177"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14658"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.47","DISCHRG_A":"0.017","CHRG_A":"0.000"}
+
+11/19/2017:00:10 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1671"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12313"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14652"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/19/2017:20:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1976"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12310"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14591"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"0.44","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/19/2017:20:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1976"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12310"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14591"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"0.44","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+11/21/2017:00:07 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1886"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12170"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14550"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/21/2017:23:42 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1545"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12144"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14547"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/24/2017:21:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2034"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12321"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14819"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/25/2017:18:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2026"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12309"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14839"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.82","PV_V":"0.62","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/27/2017:00:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2043"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12322"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14819"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/28/2017:00:52 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1980"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12115"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14731"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/28/2017:23:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1977"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12066"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14370"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+11/30/2017:00:54 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2044"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12090"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14559"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.55","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/1/2017:00:22 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2032"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11915"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14164"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"0.52","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+12/2/2017:00:42 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2099"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12031"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14590"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"0.42","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/3/2017:01:26 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2252"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12266"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14793"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/4/2017:00:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2232"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12171"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14762"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/4/2017:22:47 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2171"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11987"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14406"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.42","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/5/2017:22:38 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2182"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11478"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14111"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.42","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/7/2017:01:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2215"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11916"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14197"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/7/2017:23:47 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2126"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11669"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14024"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.34","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/9/2017:01:28 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2215"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11399"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13770"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.26","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+12/10/2017:01:25 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2206"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11734"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14156"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.44","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/10/2017:22:48 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2270"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11814"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14487"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/11/2017:23:43 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2298"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11556"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13964"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.29","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/12/2017:20:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2262"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11557"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14061"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/14/2017:00:25 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2242"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11438"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14139"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.31","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/15/2017:00:42 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2227"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11185"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13405"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.39","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+12/16/2017:00:46 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2168"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11222"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13965"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.29","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/16/2017:23:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2121"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11047"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13846"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.55","PV_V":"0.31","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/18/2017:01:12 night (after battery recharge)
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2023"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11188"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14016"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.34","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+12/19/2017:01:03 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2108"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11236"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14001"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.29","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/19/2017:22:27 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2143"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11570"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14144"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.29","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/20/2017:22:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2152"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11239"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13960"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.31","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+12/21/2017:19:46 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2118"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10903"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13787"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.29","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/23/2017:01:07 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1969"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10676"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13455"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.21","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+12/23/2017:20:05 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1911"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10917"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13857"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.31","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/1/2018:2:05 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1954"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10956"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14110"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.29","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+1/1/2018:23:38 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1917"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10835"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14058"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/2/2018:23:27 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1994"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10909"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14312"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.58","PV_V":"0.42","DISCHRG_A":"0.036","CHRG_A":"0.000"}
+
+1/3/2018:21:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2030"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10752"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13966"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/5/2018:00:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1990"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11327"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14362"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/5/2018:23:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2121"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10845"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14037"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/7/2018:00:37 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2038"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11001"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14360"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/7/2018:23:32 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2021"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11136"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14464"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/9/2018:01:51 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2127"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11076"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14255"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/9/2018:20:21 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2132"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11560"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14637"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.60","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/11/2018:01:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2095"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11420"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14287"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.31","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/12/2018:01:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2108"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11586"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14204"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.29","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/12/2018:23:52 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2025"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11869"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14544"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.31","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/13/2018:22:57 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2064"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11680"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14361"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.34","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/14/2018:23:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2115"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11555"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14551"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.36","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/15/2018:23:38 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2145"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11431"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14433"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.34","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/16/2018:20:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2040"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11627"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14579"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/17/2018:19:19 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2048"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11506"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14483"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.44","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/19/2018:00:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1933"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11467"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14304"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.31","DISCHRG_A":"0.036","CHRG_A":"0.000"}
+
+1/20/2018:01:12 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1895"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11390"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14564"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.29","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/20/2018:21:54 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1805"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10719"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13982"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.31","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/22/2018:00:28 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1962"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11123"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14144"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.21","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/23/2018:01:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1971"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10973"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13926"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.21","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/24/2018:01:22 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2065"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11435"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14312"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.31","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/25/2018:00:40 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2047"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11326"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14478"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.29","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+1/26/2018:01:18 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1993"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11179"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13988"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+1/27/2018:01:57 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2026"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10941"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"13841"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.29","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/28/2018:02:10 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2115"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11211"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14452"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.31","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/29/2018:01:27 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2104"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11450"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14717"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.47","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+1/29/2018:23:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2086"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11596"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14927"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/3/2018:00:21 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1953"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11296"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14755"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.39","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/4/2018:00:58 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1974"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11311"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14704"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/5/2018:00:17 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1998"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11407"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14773"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.39","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/6/2018:00:27 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1945"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11555"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14810"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.39","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/7/2018:00:43 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1870"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11337"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14843"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.44","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/7/2018:22:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2032"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11205"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14750"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.42","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/8/2018:22:23 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1976"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11442"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14753"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.49","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+2/10/2018:01:00 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1844"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11258"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14866"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/11/2018:00:24 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1646"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11367"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14847"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.49","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+2/12/2018:00:34 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1862"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11312"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14730"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/12/2018:21:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1555"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10635"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14351"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/13/2018:22:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1876"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11189"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14814"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/14/2018:22:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1837"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10249"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14063"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.54","PV_V":"0.42","DISCHRG_A":"0.032","CHRG_A":"0.000"}
+
+2/15/2018:23:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1855"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10650"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14675"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/16/2018:23:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1748"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11022"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14742"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.55","PV_V":"0.42","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/17/2018:23:44 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1898"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11473"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14865"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/18/2018:20:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1962"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11573"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14987"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.52","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/19/2018:22:56 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1912"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11681"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14671"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.29","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/21/2018:01:13 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1973"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10659"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14517"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.23","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+2/22/2018:02:10 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1890"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10686"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14596"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.26","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/22/2018:21:53 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1928"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10786"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14510"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.74","PV_V":"0.31","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/24/2018:01:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2058"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10875"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14495"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.26","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+2/24/2018:23:35 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1974"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10831"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14501"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.23","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/25/2018:23:32 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2128"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11054"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14616"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.26","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+2/26/2018:22:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2104"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10772"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14723"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.31","DISCHRG_A":"0.023","CHRG_A":"0.003"}
+
+2/27/2018:22:37 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2073"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11362"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14707"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.36","DISCHRG_A":"0.019","CHRG_A":"0.000"}
+
+2/28/2018:21:56 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2085"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11344"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14401"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+2/29/2018:22:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"1954"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11564"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14683"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.42","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/5/2018:23:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2181"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11550"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14571"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.39","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+3/7/2018:01:02 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2075"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11254"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15032"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/7/2018:20:41 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2083"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11472"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15031"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.60","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+3/9/2018:02:03 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2047"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11608"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15194"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/9/2018:23:41 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2204"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11691"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15294"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.62","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+3/11/2018:02:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2562"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11242"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14966"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.58","PV_V":"0.52","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+3/11/2018:21:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2569"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"32462"}}
+# zip tie at end of drip line broke off so the flow is a valid number
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15153"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.73","PV_V":"0.52","DISCHRG_A":"0.019","CHRG_A":"0.000"}
+
+3/12/2018:21:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2548"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11831"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15572"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/13/2018:22:21 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2422"}}
+# self compensating emiters only at about noon
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"10725"}}
+# new presure regulater after solenoid valve
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15625"}}
+# old presure regulater after solenoid valve (drill out weep hole to 1/4")
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.65","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/14/2018:22:39 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2984"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12971"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15341"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.62","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+3/16/2018:01:31 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3003"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11729"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15124"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.57","PV_V":"0.39","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+3/17/2018:00:45 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3054"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11219"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15063"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.36","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/17/2018:23:00 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3156"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11455"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15671"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/18/2018:20:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3142"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11541"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15223"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.42","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/19/2018:22:42 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3154"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11167"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14998"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.39","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+3/20/2018:22:46 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3172"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11384"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14962"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.55","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/21/2018:22:46 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3139"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11347"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15578"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.70","PV_V":"0.62","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/23/2018:00:20 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3163"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11449"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14798"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.70","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+3/23/2018:22:12 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3247"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13167"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15842"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.57","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+3/24/2018:22:59 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3202"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12945"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15591"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.52","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/25/2018:20:38 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3169"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11965"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15037"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.60","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+3/26/2018:23:35 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3201"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12542"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15870"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.44","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+3/28/2018:01:04 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3202"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11526"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"14776"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+3/28/2018:20:38 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3107"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11666"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15417"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.71","PV_V":"0.62","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+3/29/2018:23:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3123"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11776"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15877"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.60","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/2/2018:23:24 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3035"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12547"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15734"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.68","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/4/2018:00:29 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2985"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12327"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15646"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.57","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/5/2018:00:27 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3041"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12544"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16052"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.57","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+4/5/2018:23:51 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3060"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12696"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15980"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.65","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/7/2018:00:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3048"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12927"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15645"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.70","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/8/2018:00:56 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"6208"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13246"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15701"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.86","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+# Note: after looking at data I looked at zone1 and found a drip line had pop off at a T, it has full pressure with compensating emitters. I trimed the line back and put it in the T again.
+
+4/8/2018:22:18 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"6599"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13401"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16133"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.70","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+# Note: another (not same) drip line had pop off today
+
+4/9/2018:22:09 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2812"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13444"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15980"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.73","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+4/11/2018:00:08 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2938"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13614"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16602"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.65","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+4/11/2018:22:37 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2873"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13382"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15964"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.73","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+4/12/2018:22:06 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2856"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13845"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16169"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.62","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+4/14/2018:01:22 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2903"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13839"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15717"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/14/2018:01:22 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2903"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13839"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15717"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/14/2018:23:52 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2934"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13687"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16128"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/16/2018:00:24 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2878"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13583"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16200"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.55","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/16/2018:22:53 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2812"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13386"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15772"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.58","PV_V":"0.73","DISCHRG_A":"0.030","CHRG_A":"0.000"}
+
+4/18/2018:00:18 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2952"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13558"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16096"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.39","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/18/2018:23:07 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2859"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13392"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16460"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.49","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/20/2018:00:27 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2892"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13648"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16376"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.47","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/20/2018:23:36 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2852"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13444"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"15896"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.52","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/22/2018:00:12 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2801"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"13919"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16459"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.62","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/23/2018:01:21 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2824"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14332"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16586"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.70","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/24/2018:01:42 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2862"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14451"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"16986"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.68","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/24/2018:23:18 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2949"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14589"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17189"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.75","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+4/25/2018:23:29 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2827"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14394"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17260"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.78","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+4/26/2018:23:01 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"3021"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14338"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17606"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.81","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+4/27/2018:22:15 night 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2604"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14549"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17710"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.94","DISCHRG_A":"0.022","CHRG_A":"0.000"}
+
+4/28/2018:17:05 day 
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2796"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14480"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17664"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"15.56","DISCHRG_A":"0.026","CHRG_A":"0.000"}
+
+4/29/2018:22:03 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2689"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14569"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18292"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.69","PV_V":"0.83","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/1/2018:00:03 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2806"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14771"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18169"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.65","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+5/5/2018:00:01 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2616"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14417"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19020"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.65","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+5/6/2018:00:49 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2601"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14789"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19040"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"0.70","DISCHRG_A":"0.037","CHRG_A":"0.000"}
+
+5/7/2018:23:36 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2450"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14778"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18679"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.61","PV_V":"0.81","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/9/2018:00:08 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2370"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14750"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19552"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.83","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+5/9/2018:22:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2378"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14907"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19919"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.86","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/11/2018:01:55 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2311"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14635"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19728"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"0.81","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+5/11/2018:20:14 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2523"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"15133"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18672"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"1.01","DISCHRG_A":"0.033","CHRG_A":"0.000"}
+
+5/13/2018:01:14 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2490"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"15154"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17754"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.62","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/13/2018:22:34 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2604"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"14993"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18282"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.75","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+5/14/2018:22:07 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2538"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12217"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18233"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.67","PV_V":"0.81","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/15/2018:22:12 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2547"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12475"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18559"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.66","PV_V":"0.78","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/16/2018:22:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2417"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12269"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18676"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.63","PV_V":"0.88","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+5/17/2018:23:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2276"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12327"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18750"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.81","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/18/2018:23:04 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2390"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12045"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18674"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.75","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+5/19/2018:23:51 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2436"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12185"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18575"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.60","PV_V":"0.81","DISCHRG_A":"0.029","CHRG_A":"0.000"}
+
+5/20/2018:23:01 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2442"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12099"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18271"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.64","PV_V":"0.83","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+5/21/2018:23:13 night charging battery
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2250"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11747"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18147"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"14.03","PV_V":"0.81","DISCHRG_A":"0.017","CHRG_A":"0.000"}
+
+5/22/2018:21:06 night will charge again after this reading
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2474"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11724"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17691"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.83","DISCHRG_A":"0.017","CHRG_A":"0.000"}
+
+5/23/2018:21:06 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2443"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12132"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17567"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.76","PV_V":"0.78","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/24/2018:21:21 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2398"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12193"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18388"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.82","PV_V":"0.94","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+5/25/2018:22:38 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2514"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12191"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18099"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.80","PV_V":"0.86","DISCHRG_A":"0.019","CHRG_A":"0.000"}
+
+5/27/2018:00:48 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2447"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12217"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18598"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.70","DISCHRG_A":"0.017","CHRG_A":"0.000"}
+
+5/27/2018:16:52 day
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2417"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12079"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18423"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"13.01","PV_V":"15.51","DISCHRG_A":"0.000","CHRG_A":"0.000"}
+
+5/28/2018:20:11 night charge last night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2465"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12099"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18625"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.88","PV_V":"1.04","DISCHRG_A":"0.017","CHRG_A":"0.000"}
+
+6/1/2018:20:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2574"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12298"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19144"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"0.83","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+6/2/2018:22:32 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2657"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12411"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19392"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.82","PV_V":"0.91","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+6/3/2018:22:37 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2238"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11165"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17741"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"0.94","DISCHRG_A":"0.034","CHRG_A":"0.000"}
+
+6/5/2018:01:10 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2357"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11935"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19110"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.83","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+6/5/2018:22:15 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2512"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12782"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19819"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.82","PV_V":"1.04","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+6/6/2018:23:28 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2563"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12582"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19668"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.79","PV_V":"0.83","DISCHRG_A":"0.024","CHRG_A":"0.000"}
+
+6/8/2018:00:33 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2490"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12354"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"19623"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.83","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+6/9/2018:00:11 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2317"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500001"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"11090"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"17914"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"12.77","PV_V":"0.91","DISCHRG_A":"0.023","CHRG_A":"0.000"}
+
+6/9/2018:16:18 night
+/1/flow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"2429"}}
+/1/time? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"12083"}}
+/1/time? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/flow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"18132"}}
+/1/time? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1500000"}}
+/1/analog? 7,6,3,2
+{"PWR_V":"13.11","PV_V":"14.86","DISCHRG_A":"0.000","CHRG_A":"0.032"}
+
+6/10/2018:01:10 night
+RPUno^5 replaced with RPUno^9. Wiring updates also. Will try running KNL firmware. 
+Car Battery replaced with 18AHr AGM SLA 
+{"id":{"name":"KNL","desc":"RPUno (14140^9) Board /w atmega328p","avr-gcc":"5.4.0"}}
+/1/kflow? 1
+{"K1":{"cycle_state":"0","cycles":"0","flow_cnt":"91"}}
+/1/ktime? 1
+{"K1":{"cycle_state":"0","cycles":"0","cycle_millis":"1000"}}
+/1/kflow? 2
+{"K2":{"cycle_state":"0","cycles":"0","flow_cnt":"90"}}
+/1/ktime? 2
+{"K2":{"cycle_state":"0","cycles":"0","cycle_millis":"1000"}}
+/1/kflow? 3
+{"K3":{"cycle_state":"0","cycles":"0","flow_cnt":"90"}}
+/1/ktime? 3
+{"K3":{"cycle_state":"0","cycles":"0","cycle_millis":"1000"}}
+/1/analog? 7,6
+{"PWR_V":"13.01","PWR_I":"0.023"}
+
+
+
+

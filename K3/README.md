@@ -129,14 +129,14 @@ Before a pulse can be sent the boost converter has to build a charge. Once E3 is
 
 I've been using CAT5 pair to wire the coils. At nearly 5 Amps peak that may be risky but for a short duration pulse the CAT5 pair seems to work (your mileage may vary, but it is cheap and the twisted pair helps keep the pulse from generating EMI). 
 
-When the pulse is sent the boost converter is turned off so only the charge in the storage capacitor (2200uF) is sent, this should keep things within the safe operating area of the output MOSFETS as long as at least 4 Ohms of resistance is between the bridges. Anything less than 4 Ohms allows excessive current and will eventually lead to a failure. For reference, 10 meters of CAT5 has less than 1.7 Ohm and 25 meters has less than 4 Ohms.
+When the pulse is sent the boost converter is turned off so only the charge in the storage capacitor (2200uF) is sent, this should keep things within the safe operating area of the output MOSFETS as long as at least 4 Ohms of resistance is between the bridges. Anything less than 4 Ohms allows excessive current and will eventually lead to a failure. For reference, 10 meters of CAT5 has less than 1.7 Ohm.
 
 Solenoid options
 
-* Orbit 57861 Latching Solenoid (seems to work OK with 24V 50mSec pulse from 2200uF).
-* Orbit 58874N Latching Solenoid valve (seems to work OK with 24V 50mSec pulse from 2200uF).
+* Orbit 58874N, 58874Z, 91592, 96120 Latching Solenoid valve (seems to work OK with 24V 50mSec pulse from 2200uF).
+* Orbit 57861 Latching Solenoid replacement for AC operated valve (I do not have this, it plugs into Orbits 24V controls but most others are are using 9V).
 * DIG S-305DC Solenoid & Adapters (http://www.digcorp.com/professional-irrigation-products/s-305dc-9-vdc-solenoid-adapters).
-
-
+* Hunter 458200 Latching Solenoid for AC operated valve (e.g. ICV201GDC and ilk, but I do not have one, probably 9V pulse)
+* Irritrol DCL Latching Solenoid for AC operated valve (e.g. 2400S and ilk, but I do not have one, probably 9V pulse)
 
 
