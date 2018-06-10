@@ -35,6 +35,8 @@ I ran it for over a year with 10 cycles per valve per day, problems are noted in
 
 One thing is clear the Orbit valves do not get stuck when operated like this. I was having a problem where they would get stuck open, most likely that was caused by the hard water mineral build. Perhaps the frequent operation dislodges the buildup before it reaches a critical level. Unfortunately, the valve is no longer on the mainstream market. It received a lot of complaints about sticking (which were true from my experience). Having said that I still like the valve design, it is incredibly fast acting and is clearly durable when used with a frequency beyond what the controller it was sold with did. There are other valve options I will explore when I can.
 
+Every day each of the three valves operated ten times for over a year. When I looked at the data I would cut and past it into the log. That was when I found a number of issues at the time, some were the battery, some were damaged/broken/separated drip lines and the pressure regulators. Basically, the flow count tells me that I need to look for an issue.  Zone 3 is going wild, but the emitters seem to be working and nothing I have found has failed, so I think the pressure regulator on it is having problems (it has not failed yet so let's see what happens).
+
 
 ## ^2 Cycle test with RPUno^5
 
