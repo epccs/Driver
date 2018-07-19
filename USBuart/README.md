@@ -32,9 +32,9 @@ The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC
 ![Status](./status_icon.png "Status")
 
 ```
-        ^0  Done: Design, Layout, BOM,
-            WIP: Review*,
-            Todo: Order Boards, Assembly, Testing, Evaluation.
+        ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
+            WIP: Testing,
+            Todo: Evaluation.
             *during review the Design may change without changing the revision.
 ```
 
