@@ -4,18 +4,21 @@
 
 The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC07A buffer for use with logic levles from 5V to 1.8V. 
 
+
 ## Inputs/Outputs/Functions
 
 ```
         UART lines
         Target side power controls IOFF when port is closed
+        17mA from USB 5V powers IOFF buffer when port is open
+        Green LED shows when port is open
 ```
 
 
 ## Uses
 
 ```
-        With port closed a connection to RPUadpt does not glitch the RS422 bus.
+        With port closed a connection to RPUadpt does not glitch the serial bus.
 ```
 
 
@@ -32,9 +35,9 @@ The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC
 ![Status](./status_icon.png "Status")
 
 ```
-        ^1  Done: 
-            WIP: 
-            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^1  Done: Design, Layout, BOM, 
+            WIP: Review*, 
+            Todo: Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
             open FT231X sleep pin so green LED can be used as part of current source bias. 
             use FT231X nRTS pin to pull down current source bias through the green LED.
@@ -85,9 +88,9 @@ M. | [BRD] [SMD] [HDR]
 
 # How To Use
 
-Connect target UART to USB UART (e.g. RX to target TX and TX to target RX). The main consideration is that the Target voltage needs connecto to IOREF so the 74LVC07A buffer will operate at that voltage level. 
+Connect target UART to USB UART (e.g. RX to target TX and TX to target RX). The main consideration is that the Target voltage needs connecto to VCC so the 74LVC07A buffer will operate at that voltage level. 
 
-When the serial port is open a current source will drive 17mA into the target's IOREF input, it is not enough to power the target however it will provide bias for the buffer on RPUadpt's serial input. When the port is closed RPUadpt will have no power on its buffer which will allow both sides to set the IOFF state and thus allow connection (or disconnection) that have a minimized glitch.
+When the serial port is open the green LED truns on and a current source will drive 17mA into the buffer's VCC input, it can power some targets but is needed to bias the buffer on RPUadpt's serial input. When the port is closed the RPUadpt IOFF buffer will have no power which will allow both sides (e.g. both USBuart and RPUadpt have IOFF buffers) to set the IOFF state and thus allow connection (or disconnection) without a glitch. 
 
 
 
