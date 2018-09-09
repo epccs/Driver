@@ -4,35 +4,33 @@
 
 Waring: this board is not industry-standard RS485.
 
-RS485 half duplex with fail-safe biasing and automatic push to talk (e.g. tx_en). Truth is industry standard RS485 is notoriously difficult to work with. But now that there are a few chip options with a trustworthy fail-safe bias, it can be a lot easier.
+The THVD150 is one of the new transceivers that have a 50mV built-in fail-safe margin, so they see everything on the differential pair (A/B) that is higher than -50mV as a HIGH. Between -50mV and -200mV is undefined and bellow -200mV is a LOW. These devices see 0V on the pair as a HIGH. The old standard is undefined in the range 200mV to -200mV. Other chips that do this include ISL3172 and MAX3085.
 
-When more than two transceivers are on the media (the differential pair) and more than one unintentionally transmits (e.g. both DE HIGH and, one DI HIGH and another with DI LOW) the results can be a catastrophe (differential lines A/B cross conduct). This problem is designed into the industry standard and it is not easy to fix, at least with long-term survival in mind.
+If 0V between A/B is guaranteed to be seen as a HIGH, then why do I need to drive it? I do not, but let's be clear we are not using the RS485 standard.
 
-The ISL3172, MAX3085, and THVD150 transceivers have a 50mV built-in fail-safe margin, so they see everything on the pair that is higher than -50mV as a HIGH. Between -50mV and -200mV is undefined and bellow -200mV is a LOW. These devices see 0V on the pair as a HIGH. The old standard is undefined in the range 200mV to -200mV between A/B pair.
+When a UART TX line is at rest it is a digital HIGH. If I use the digital high to disable the transmitter and all the receivers see 0V as HIGH then communication will work. The possibility of software caused self-destructing cross conduction is eliminated (unfortunately the A/B hardware wires can still be swapped).
 
-If 0V between A/B is guaranteed to be seen as a HIGH, then why do I need to drive it? I do not.
-
-When a UART TX line is at rest it is a digital HIGH. If I use the digital high to disable the transmitter and all the receivers see 0V as HIGH then all is good, plus the possibility of self-destructing cross conduction is eliminated.
-
-The RX line will receive everything placed on the media and it is enabled by default with a pull-up.
+The RX line will receive everything placed on the media and it is enabled by default with a pull-up. This can be unexpected depending on previous experience. It is dealt with by software reading back the sent characters. The readback can be used to see if the A/B pair has a short circuit, or if a collision is occurring (e.g. two or more drivers).  
 
 IOFF buffers are also added so any MCU voltage can be used.
 
-Why? Well, beginners need something that is resistant to damage. The common MAX485 boards are easy to wreck with programming errors. 
+This is how the out of band manager communicates between nodes on my projects (e.g. [rpubus]).
+
+[rpubus]: https://rpubus.org/
 
 
 ## Inputs/Outputs/Functions
 
 ```
-        RS485 transceiver
-        Easy push to talk control, so easy it can be ignored.
+        RS485 transceiver with builtin fail-safe 
+        Push to talk controlled (DE) is controled with inverted TX.
 ```
 
 
 ## Uses
 
 ```
-        Half Duplex serial that does not self-destruct with software mistakes.
+        Half Duplex serial
 ```
 
 
@@ -49,9 +47,9 @@ Why? Well, beginners need something that is resistant to damage. The common MAX4
 ![Status](./status_icon.png "Status")
 
 ```
-        ^0  Done: 
-            WIP: 
-            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^0  Done: Design, Layout, BOM, 
+            WIP: Review*,
+            Todo: Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
 ```
 
@@ -97,7 +95,9 @@ W. | [BRD] [SMD] [HDR] [PLUG]
 
 # How To Use
 
-Connect UART RX to RO and UART TX to DI. The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an N-CH MOSFET whose gate is controlled with the UART TX. In general, the push to talk lines (DE and nRE) is ignored but it is possible to control them (e.g. when a point to point communication is needed, perhaps all the devices can go into a lockout mode for a time). 
+Connect UART RX to RO, UART TX to DI, and UART power (0V and IOREF). The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an NPN whose base is controlled with the UART TX. The push to talk lines (DE and nRE) are hard-wired, but unless the UART TX is sending data the bus is free to use by other devices. 
+
+If the power to the transceiver is turned off the bus is free to use by other devices (and not locked up). If the power to the UART is removed the IOFF buffer will go into its HI-Z state (which is the IOFF feature), and if the transceiver still is powered it will be set up so the bus is free to use by other devices.
 
 
 
