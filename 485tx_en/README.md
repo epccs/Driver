@@ -6,7 +6,7 @@ Waring: this board is not industry-standard RS485.
 
 The THVD150 is one of the new transceivers that have a 50mV built-in fail-safe margin, so they see everything on the differential pair (A/B) that is higher than -50mV as a HIGH. Between -50mV and -200mV is undefined and bellow -200mV is a LOW. These devices see 0V on the pair as a HIGH. The old standard is undefined in the range 200mV to -200mV. Other chips that do this include ISL3172 and MAX3085.
 
-If 0V between A/B is guaranteed to be seen as a HIGH, then why do I need to drive it? I do not, but let's be clear we are not using the RS485 standard.
+If 0V between A/B is guaranteed to be seen as a HIGH, then why do I need to drive it? I do not, but let's be clear I am not using the RS485 standard.
 
 When a UART TX line is at rest it is a digital HIGH. If I use the digital high to disable the transmitter and all the receivers see 0V as HIGH then communication will work. The possibility of software caused self-destructing cross conduction is eliminated (unfortunately the A/B hardware wires can still be swapped).
 
