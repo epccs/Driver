@@ -1,0 +1,8 @@
+LINE, REF, QTY, EPCCS TYP,EPCCS PN,MFG@PN, DESCRIPTION, NOTES, COST EA, LINE COST,BIN
+,,,,,,485tx_en Headers,,,TOTAL,
+,,,,,,9/8/18 (18250^0),,,=SUM(J5:J100),
+,,,,,,,,,,
+1,J1,=1*6/36,J-HDR2.54mm,PBC36SAAN,SULLINS2PBC36SAAN,HEADER MALE BRKWAY .1IN AA 36POS 1 SET OF 6,(1 4),2.091,=C5*I5,SHLD
+,,,,,,,,,,
+,,,,,,NOTES,,,,
+,,,,,,(1) Alternate part with same or better rating allowed,,,,
