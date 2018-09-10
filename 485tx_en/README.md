@@ -23,7 +23,7 @@ This is how the out of band manager communicates between nodes on my projects (e
 
 ```
         RS485 transceiver with builtin fail-safe 
-        Push to talk controlled (DE) is controled with inverted TX.
+        Push to talk control (DE) is done with inverted TX.
 ```
 
 
@@ -95,7 +95,7 @@ W. | [BRD] [SMD] [HDR] [PLUG]
 
 # How To Use
 
-Connect UART RX to RO, UART TX to DI, and UART power (0V and IOREF). The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an NPN whose base is controlled with the UART TX. The push to talk lines (DE and nRE) are hard-wired, but unless the UART TX is sending data the bus is free to use by other devices. 
+Connect UART_RX (whcih goes to RO), UART_TX (which goes to DI), and UART power (0V and IOREF). The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an NPN whose base is controlled with the UART TX. The push to talk lines (DE and nRE) are hard-wired, but unless the UART TX is sending data the bus is free to use by other devices. 
 
 If the power to the transceiver is turned off the bus is free to use by other devices (and not locked up). If the power to the UART is removed the IOFF buffer will go into its HI-Z state (which is the IOFF feature), and if the transceiver still is powered it will be set up so the bus is free to use by other devices.
 
