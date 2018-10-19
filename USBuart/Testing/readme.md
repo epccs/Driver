@@ -10,13 +10,14 @@ This is a list of Test preformed on each board after assembly.
 1. Basics
 2. Assembly check
 3. IC Solder Test
-4. Bias 5V
-5. TBD
-
+4. Bias USB input
+5. USB Enumeration
+6. Current Source
+7. Interface With RPUadpt
 
 ## Basics
 
-These tests are for an assembled USBart board 18066^0 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
+These tests are for an assembled USBart board 18066^1 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
 
 __Warning__: never use a soldering iron to rework ceramic capacitors due to the thermal shock.
 
@@ -39,8 +40,9 @@ Check that a diode drop to 0V is present from a circuit board pad that is connec
 Setup a current limited supply with 5V and about 20mA limit. Connect it to the 5V USB input. Measure the input current.
 
 ``` 
-{ "USB_IN_CURR_mA":[9.3,] }
+{ "USB_IN_CURR_mA":[0.12,] }
 ``` 
+
 
 ## USB Enumeration
 
@@ -49,19 +51,19 @@ Using Ubuntu 18.04
 ```
 dmesg
 ...
-[   70.814330] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
-[12213.459395] usb 3-2: new full-speed USB device number 2 using uhci_hcd
-[12213.681418] usb 3-2: New USB device found, idVendor=0403, idProduct=6015
-[12213.681424] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
-[12213.681428] usb 3-2: Product: FT231X USB UART
-[12213.681431] usb 3-2: Manufacturer: FTDI
-[12213.681434] usb 3-2: SerialNumber: DA01M0VI
-[12213.690497] ftdi_sio 3-2:1.0: FTDI USB Serial Device converter detected
-[12213.690561] usb 3-2: Detected FT-X
-[12213.692537] usb 3-2: FTDI USB Serial Device converter now attached to ttyUSB1
+[49016.467927] usb 2-1: new full-speed USB device number 4 using uhci_hcd
+[49016.686892] usb 2-1: New USB device found, idVendor=0403, idProduct=6015
+[49016.686903] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[49016.686909] usb 2-1: Product: FT231X USB UART
+[49016.686916] usb 2-1: Manufacturer: FTDI
+[49016.686922] usb 2-1: SerialNumber: DN027PWA
+[49016.697043] ftdi_sio 2-1:1.0: FTDI USB Serial Device converter detected
+[49016.697106] usb 2-1: Detected FT-X
+[49016.699085] usb 2-1: FTDI USB Serial Device converter now attached to ttyUSB0
+
 ```
 
-The message timestamp changes from 70 to 12213 at which point we see the usb enumeration. 
+note: dmesg gives a timestamp for usb enumeration. 
 
 
 ## Current Source
@@ -70,21 +72,21 @@ With USB power connected and FT231X enumeration done verify the current source i
 
 ``` 
 ^0 the FT231X nDTR pin is pulled to 3V3 so the current source is not all the way off
-{ "TARGET_OFF_V":[4.47,],
-  "TARGET_OFF_mA":[4.5,]}
+{ "TARGET_OFF_V":[0.0,],
+  "TARGET_OFF_mA":[0.0,]}
 ``` 
 
 Open the Port
 
 ```
-picocom -b 38400 /dev/ttyUSB1
+picocom -b 38400 /dev/ttyUSB0
 ```
 
 Measure the current source
 
 ``` 
-{ "TARGET_ON_V":[4.67,],
-  "TARGET_ON_mA":[16.3,]}
+{ "TARGET_ON_V":[4.7,],
+  "TARGET_ON_mA":[17.8,]}
 ``` 
 
 ## Interface With RPUadpt

@@ -35,9 +35,9 @@ The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC
 ![Status](./status_icon.png "Status")
 
 ```
-        ^1  Done: Design, Layout, BOM, 
-            WIP: Review*, 
-            Todo: Order Boards, Assembly, Testing, Evaluation.
+        ^1  Done: Design, Layout, BOM, Review*, Order Boards, 
+            WIP: Assembly, 
+            Todo: Testing, Evaluation.
             *during review the Design may change without changing the revision.
             open FT231X sleep pin so green LED can be used as part of current source bias. 
             use FT231X nRTS pin to pull down current source bias through the green LED.

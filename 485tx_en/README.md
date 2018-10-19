@@ -18,6 +18,8 @@ This is how the out of band manager communicates between nodes on my projects (e
 
 [rpubus]: https://rpubus.org/
 
+Since the receiver remains activated when the transmitter is enabled the UART will get an echo of what it puts on the differential pair, in short, this means a hardware UART is required since software serial cannot deal with both TX and RX happening at the same time.
+
 
 ## Inputs/Outputs/Functions
 
@@ -98,6 +100,13 @@ W. | [BRD] [SMD] [HDR] [PLUG]
 Connect UART_RX (whcih goes to RO), UART_TX (which goes to DI), and UART power (0V and IOREF). The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an NPN whose base is controlled with the UART TX. The push to talk lines (DE and nRE) are hard-wired, but unless the UART TX is sending data the bus is free to use by other devices. 
 
 If the power to the transceiver is turned off the bus is free to use by other devices (and not locked up). If the power to the UART is removed the IOFF buffer will go into its HI-Z state (which is the IOFF feature), and if the transceiver still is powered it will be set up so the bus is free to use by other devices.
+
+
+# Other Tx Enable
+
+Some of the Sparkfun boards done by LinkSprite did this, but they also turn off the receive which was not what I wanted. 
+
+* https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/RS485_schematics.pdf
 
 
 
