@@ -8,17 +8,19 @@ The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC
 ## Inputs/Outputs/Functions
 
 ```
-        UART lines
-        Target side power controls IOFF when port is closed
-        17mA from USB 5V powers IOFF buffer when port is open
-        Green LED shows when port is open
+        UART lines RX, TX, nRTS, nCTS, nDTR, nDSR.
+        Target side voltage controls buffer voltage if it can sink 17mA.
+        17mA from USB 5V powers buffer VCC when nRTS is set active (LOW).
+        Green LED shows when 17mA is powering the buffer.
 ```
 
 
 ## Uses
 
 ```
-        With port closed a connection to RPUadpt does not glitch the serial bus.
+        With port closed the USBuart buffer has no power, and is in the IOFF state.
+        With port closed the RPUadpt buffer has no power, and is in the IOFF state.
+        When both buffers power-down, a disconnected can be done without glitching the serial bus.
 ```
 
 
@@ -88,9 +90,11 @@ M. | [BRD] [SMD] [HDR]
 
 # How To Use
 
-Connect target UART to USB UART (e.g. RX to target TX and TX to target RX). The main consideration is that the Target voltage needs connecto to VCC so the 74LVC07A buffer will operate at that voltage level. 
+Connect target UART to USBuart (e.g. RX to target TX and TX to target RX). The main consideration is that the Target voltage needs connecto to VCC so the 74LVC07A buffer will operate at the targets voltage level. 
 
-When the serial port is open the green LED truns on and a current source will drive 17mA into the buffer's VCC input, it can power some targets but is needed to bias the buffer on RPUadpt's serial input. When the port is closed the RPUadpt IOFF buffer will have no power which will allow both sides (e.g. both USBuart and RPUadpt have IOFF buffers) to set the IOFF state and thus allow connection (or disconnection) without a glitch. 
+When the serial port is open the green LED truns on and a current source will drive 17mA into the buffer's VCC input, it can power a buffer on the target side(e.g. see RPUadpt) but will not power a target. 
+
+If the target has an IOFF buffer like the RPUadpt does then both buffers will enter an IOFF state and allow disconnect (or connect) without a glitch showing up in the serial. There is an ESD risk that will require a knowledgeable technician to deal with. 
 
 
 
