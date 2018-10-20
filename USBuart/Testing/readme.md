@@ -40,7 +40,7 @@ Check that a diode drop to 0V is present from a circuit board pad that is connec
 Setup a current limited supply with 5V and about 20mA limit. Connect it to the 5V USB input. Measure the input current.
 
 ``` 
-{ "USB_IN_CURR_mA":[0.12,] }
+{ "USB_IN_CURR_mA":[0.12,0.1,0.11,] }
 ``` 
 
 
@@ -71,9 +71,8 @@ note: dmesg gives a timestamp for usb enumeration.
 With USB power connected and FT231X enumeration done verify the current source is off by measuring voltage at J2 pin 3.
 
 ``` 
-^0 the FT231X nDTR pin is pulled to 3V3 so the current source is not all the way off
-{ "TARGET_OFF_V":[0.0,],
-  "TARGET_OFF_mA":[0.0,]}
+{ "TARGET_OFF_V":[0.0,0.0,0.0,],
+  "TARGET_OFF_mA":[0.0,0.0,0.0,]}
 ``` 
 
 Open the Port
@@ -85,8 +84,8 @@ picocom -b 38400 /dev/ttyUSB0
 Measure the current source
 
 ``` 
-{ "TARGET_ON_V":[4.7,],
-  "TARGET_ON_mA":[17.8,]}
+{ "TARGET_ON_V":[4.7,4.7,4.7,],
+  "TARGET_ON_mA":[17.8,17.7,17.8,]}
 ``` 
 
 ## Interface With RPUadpt
