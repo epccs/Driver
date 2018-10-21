@@ -26,6 +26,8 @@ Since the receiver remains activated when the transmitter is enabled the UART wi
 ```
         RS485 transceiver with builtin fail-safe 
         Push to talk control (DE) is done with inverted TX.
+        An automatic level shift to the MCU or UART logic voltage.
+        Glitch-free power up no matter which side starts first.
 ```
 
 
@@ -33,6 +35,8 @@ Since the receiver remains activated when the transmitter is enabled the UART wi
 
 ```
         Half Duplex serial
+        USBuart has a 17mA current source that powers IOFF buffers on its self and the 485tx_en.
+        When the USBuart port is closed it can be disconnected without causeing a bus glitch (ESD is a risk).
 ```
 
 
@@ -49,10 +53,16 @@ Since the receiver remains activated when the transmitter is enabled the UART wi
 ![Status](./status_icon.png "Status")
 
 ```
-        ^0  Done: Design, Layout, BOM, Review*, Order Boards, 
-            WIP: Assembly,
-            Todo: Testing, Evaluation.
+        ^1  Done: 
+            WIP: 
+            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
+            Change labels on board to DI and RO.
+            
+        ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
+            WIP: Testing,
+            Todo: Evaluation.
+            *during review the Design may change without changing the revision. 
 ```
 
 Debugging and fixing problems i.e. [Schooling](./Schooling/)
@@ -101,10 +111,12 @@ Connect UART_RX (whcih goes to RO), UART_TX (which goes to DI), and UART power (
 
 If the power to the transceiver is turned off the bus is free to use by other devices (and not locked up). If the power to the UART is removed the IOFF buffer will go into its HI-Z state (which is the IOFF feature), and if the transceiver still is powered it will be set up so the bus is free to use by other devices.
 
+Power up synchronization normally results in bus glitches, but in this case, any power-up sequence is glitch free. The transceiver has a different power supply than the IOFF buffer, so they will reach a powered on state at different times. This is often how glitches start. There are so many details to this I don't even know where to start so, for now, it is IOFF plus some magic.
+
 
 # Other Tx Enable
 
-Some of the Sparkfun boards done by LinkSprite did this, but they also turn off the receive which was not what I wanted. 
+Some of the Sparkfun boards done by LinkSprite had TX enable, but they also turn off the receive which was not what I wanted. The sender can look for bus collisions by keeping the receiver enabled, but doing both the send and the receive at the same time requiers hardware (e.g. a UART).
 
 * https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/RS485_schematics.pdf
 
