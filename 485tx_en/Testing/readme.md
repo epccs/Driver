@@ -11,7 +11,7 @@ This is a list of Test preformed on each board after assembly.
 2. Assembly check
 3. IC Solder Test
 4. Bias
-5. TBD
+5. Connect USBuart
 
 
 ## Basics
@@ -39,18 +39,18 @@ Check that a diode drop to 0V is present from a circuit board pad that is connec
 Setup a current limited supply with 5V and about 20mA limit. Connect the supply to the Tranceiver VCC input (J2 pin1) and 0V (J2 pin4). Measure the input current.
 
 ``` 
-{ "TXCVR_IN_CURR_mA":[1.9,] }
+{ "TXCVR_IN_CURR_mA":[1.9,1.9,1.9,] }
 ``` 
 
 Connect the supply to the Buffer UART_IOREF input (J1 pin3) and 0V (J1 pin1). Measure the input current.
 
 ``` 
-{ "IOFFBUF_IN_CURR_mA":[1.7,] }
+{ "IOFFBUF_IN_CURR_mA":[1.7,1.7,1.7,] }
 ``` 
 
-## USBuart 
+## Connect USBuart 
 
-Connect a USBuart and use its 17mA current source to drive the 485tx_en buffer. Open the port and measure the voltage on UART_IOREF input (J1 pin3). Verify echo on RX (note receiver is on).
+Connect the 5V@20mA supply to the Tranceiver VCC input. Connect a USBuart and use its 17mA current source to drive the 485tx_en buffer. Open the port and measure the voltage on UART_IOREF input (J1 pin3). Verify echo on RX (note receiver is on).
 
 ```
 picocom -b 38400 /dev/ttyUSB1
@@ -60,7 +60,7 @@ asdf
 ```
 
 ``` 
-{ "UART_IOREF_AT_17mA_V":[4.7,] }
+{ "UART_IOREF_AT_17mA_V":[4.7,4.7,4.7,] }
 ``` 
 
 

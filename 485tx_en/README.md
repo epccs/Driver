@@ -59,9 +59,9 @@ Since the receiver remains activated when the transmitter is enabled the UART wi
             *during review the Design may change without changing the revision.
             Change labels on board to DI and RO.
             
-        ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
-            WIP: Testing,
-            Todo: Evaluation.
+        ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
+            WIP: Evaluation.
+            Todo: 
             *during review the Design may change without changing the revision. 
 ```
 
