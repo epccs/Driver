@@ -4,15 +4,15 @@ From <https://github.com/epccs/Driver/>
 
 ## Overview
 
-This is a collection of  circuit boards. 
+This is a collection of circuit boards. 
 
 [Forums](http://rpubus.org/bb/viewforum.php?f=9)
 
-# CL8
+# 485tx_en
 
-[CL8] is for routing a current loop supply to a selected sensor and returning the loop current to a common sense resistor.
+[485tx_en] is a easy to use half duplex serial.
 
-[CL8]: ./CL8
+[485tx_en]: ./485tx_en
 
 # ICSP
 
@@ -40,6 +40,6 @@ This is a collection of  circuit boards.
 
 # USBuart
 
-[USBuart] a USB serail bridge that is level shifted for use with logic levles from 5V to 1.8V. 
+[USBuart] a USB serail bridge with automatic level shift and IOFF buffer. 
 
 [USBuart]: ./USBuart

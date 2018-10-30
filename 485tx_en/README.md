@@ -53,12 +53,12 @@ Since the receiver remains activated when the transmitter is enabled the UART wi
 ![Status](./status_icon.png "Status")
 
 ```
-        ^1  Done: 
-            WIP: 
-            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^1  Done: Design, Layout, BOM, 
+            WIP: Review*,
+            Todo: Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
             Change labels on board to DI and RO.
-            
+
         ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
             WIP: Evaluation.
             Todo: 
@@ -107,7 +107,7 @@ W. | [BRD] [SMD] [HDR] [PLUG]
 
 # How To Use
 
-Connect UART_RX (whcih goes to RO), UART_TX (which goes to DI), and UART power (0V and IOREF). The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an NPN whose base is controlled with the UART TX. The push to talk lines (DE and nRE) are hard-wired, but unless the UART TX is sending data the bus is free to use by other devices. 
+Connect UART_RX to RO, UART_TX to DI, UART logic level to IOREF, and 0V. The Receiver enable is logic low (with a bar over RE, or nRE), it has a 3k Ohm pull-down resistor. The Transmitter enable (DE) has a 3k Ohm pull-up, but is also pulled low with an NPN whose base is controlled with the UART TX. The push to talk lines (DE and nRE) are hard-wired, but unless the UART TX is sending data the bus is free to use by other devices. 
 
 If the power to the transceiver is turned off the bus is free to use by other devices (and not locked up). If the power to the UART is removed the IOFF buffer will go into its HI-Z state (which is the IOFF feature), and if the transceiver still is powered it will be set up so the bus is free to use by other devices.
 
