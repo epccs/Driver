@@ -34,6 +34,8 @@ The USBuart board has a FT231 USB serail bridge that is level shifted with 74LVC
 
 # Status
 
+[Options](#bill-of-materials)
+
 ![Status](./status_icon.png "Status")
 
 ```
@@ -86,6 +88,8 @@ M. | [BRD] [SMD] [HDR]
 [BRD]: ./Design/18066BRD,BOM.csv
 [SMD]: ./Design/18066SMD,BOM.csv
 [HDR]: ./Design/18066HDR,BOM.csv
+
+[Available](https://rpubus.org/Order_Form.html)
 
 
 # How To Use

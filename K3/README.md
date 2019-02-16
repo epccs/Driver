@@ -33,7 +33,7 @@ Latching solenoids are driven with a current pulse that should last a short dura
 
 # Status
 
-Available through [Tindie](https://www.tindie.com/products/ron-sutherland/k3-a-latching-solenoid-driver-board/)
+[Options](#bill-of-materials)
 
 ![Status](./status_icon.png "K3 Status")
 
@@ -96,6 +96,10 @@ Check correct assembly and function with [Testing](./Testing/)
 # Bill of Materials
 
 Import the [BOM](./Design/16276,BOM.csv) into LibreOffice Calc (or Excel) with semicolon separated values, or use a text editor.
+
+WIP: add options
+
+[Available](https://rpubus.org/Order_Form.html)
 
 
 # How To Use

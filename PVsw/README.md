@@ -32,6 +32,8 @@ A high side current sense and PMOS switch for use with 12V solar panel.
 
 # Status
 
+[Options](#bill-of-materials)
+
 ![Status](./status_icon.png "Status")
 
 ```

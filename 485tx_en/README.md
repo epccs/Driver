@@ -53,9 +53,9 @@ Since the receiver remains activated when the transmitter is enabled the UART wi
 ![Status](./status_icon.png "Status")
 
 ```
-        ^1  Done: Design, Layout, BOM, 
-            WIP: Review*,
-            Todo: Order Boards, Assembly, Testing, Evaluation.
+        ^1  Done: Design, Layout, BOM, Review*, Order Boards,
+            WIP: Assembly,
+            Todo: Testing, Evaluation.
             *during review the Design may change without changing the revision.
             Change labels on board to DI and RO.
 
@@ -103,6 +103,8 @@ W. | [BRD] [SMD] [HDR] [PLUG]
 [SMD]: ./Design/18250SMD,BOM.csv
 [HDR]: ./Design/18250HDR,BOM.csv
 [PLUG]: ./Design/18250PLUG,BOM.csv
+
+[Order Form](https://rpubus.org/Order_Form.html)
 
 
 # How To Use

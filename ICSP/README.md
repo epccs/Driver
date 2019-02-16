@@ -28,7 +28,7 @@ Voltage level translation for SPI with IOFF.
 
 # Status
 
-Available through [Tindie](https://www.tindie.com/products/ron-sutherland/icsp-a-board-for-spi-level-shift-with-ioff/)
+[Options](#bill-of-materials)
 
 ![Status](./status_icon.png "ICSP Status")
 
@@ -85,10 +85,13 @@ Check correct assembly and function with [Testing](./Testing/)
 
 Import the [BOM](./Design/15321,BOM.csv) into LibreOffice Calc (or Excel) with semicolon separated values, or use a text editor.
 
+WIP: add options
+
+[Available](https://rpubus.org/Order_Form.html)
 
 # How To Use
 
-Solder connectors or try some pogo pins (e.g. [ICT-100-T] ), though I fight with the jig to hold them in place.
+Solder connectors or try some pogo pins (e.g. [ICT-100-T] ), though I am not sure of a jig to hold them in place.
 
 [ICT-100-T]: http://www.mouser.com/Search/Refine.aspx?Keyword=ICT-100-T
 
