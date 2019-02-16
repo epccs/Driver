@@ -82,6 +82,8 @@ W. | [BRD] [SMD] [HDR] [PLUG]
 [HDR]: ./Design/18074HDR,BOM.csv
 [PLUG]: ./Design/18074PLUG,BOM.csv
 
+[Available](https://rpubus.org/Order_Form.html)
+
 
 # How To Use
 

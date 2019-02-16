@@ -1,0 +1,15 @@
+LINE, REF, QTY, EPCCS TYP,EPCCS PN,MFG@PN, DESCRIPTION, NOTES, COST EA, LINE COST,BIN
+,,,,,,K3 Plugs,,,TOTAL,
+,,,,,,2/16/19 (16276^2),,,=SUM(J5:J100),
+,,,,,,,,,,
+1,,1,J-HDR3.5mm,PT1.5/4-PVH-3.5,PHOENIX CONTACT@1984031,CONN PLUG STRIP 4POS 3.5MM,(2 6),0.86,=C5*I5,SHLD
+2,,1,J-HDR3.5mm,PT1.5/3-PVH-3.5,PHOENIX CONTACT@1984028,CONN PLUG STRIP 3POS 3.5MM,(2 6),0.60,=C6*I6,SHLD
+3,,1,J-IDC2.54mm,IDC10,FCI@71600-010LF,CONN SOCKET IDC 10POS DL SR,(),.995,=C7*I7,K3
+4,,1,J-IDC2.54mm,JMP,3M@969102-0000-DA,CONN JUMPER IDC,(),.058,=C8*I8,K3
+5,,=1*1/20,J-IDC2.54mm,10-28AWG,3M@3302/10 300SF,CBL RIBN 10COND MULTI 10FT 1 SET OF 0.5FT,(),10.25,=C9*I9,K3
+,,,,,,,,,,
+,,,,,,NOTES,,,,
+,,,,,,(1) Alternate part with same or better rating allowed,,,,
+,,,,,,(2) for x in (2 4 6 8): PST 1.0/x-3.5 mates with PT 1.5/x-PVH-3.5,,,,
+,,,,,,(4) Cut 36 pin to needed size,,,,
+,,,,,,(6) Cut 16 pin to needed size,,,,

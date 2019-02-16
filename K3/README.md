@@ -14,7 +14,6 @@ Latching solenoids are driven with a current pulse that should last a short dura
         Capacitor holds a charge for latching.
 ```
 
-
 ## Uses
 
 ```
@@ -97,7 +96,18 @@ Check correct assembly and function with [Testing](./Testing/)
 
 Import the [BOM](./Design/16276,BOM.csv) into LibreOffice Calc (or Excel) with semicolon separated values, or use a text editor.
 
-WIP: add options
+The BOM is a CVS file(s), import it into a spreadsheet program like LibreOffice Calc (or Excel), or use a text editor.
+
+Option | BOM's included
+----- | ----- 
+A. | [BRD] 
+Z. | [BRD] [SMD] [HDR] [PLUG] [DIN]
+
+[BRD]: ./Design/16276BRD,BOM.csv
+[SMD]: ./Design/16276SMD,BOM.csv
+[HDR]: ./Design/16276HDR,BOM.csv
+[PLUG]: ./Design/16276PLUG,BOM.csv
+[DIN]: ./Design/16276DIN,BOM.csv
 
 [Available](https://rpubus.org/Order_Form.html)
 
