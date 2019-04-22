@@ -1,0 +1,11 @@
+LINE, REF, QTY, TYP, PN, MFG@PN, DESCRIPTION, NOTES, COST EA, LINE COST,BIN
+,,,,,,ICSP POL,,,TOTAL,
+,,,,,,4/21/19 (15321^2),,,=SUM(J5:J100),
+,,,,,,,,,,
+1,U4,1,U-DCDC,I50115,MURATA PS@OKI-78SR-5,SMPS 5V 1500MA SIP3,(1),4.228,=C5*I5,RPUNO
+,,,,,,,,,,
+,,,,,,NOTES,,,,
+,,,,,,(1) Alternate part with same or better rating allowed,,,,
+,,,,,,(4) Cut 36 pin to needed size,,,,
+
+
