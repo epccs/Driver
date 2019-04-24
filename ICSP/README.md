@@ -114,18 +114,21 @@ Z. | [BRD] [SMD] [HDR] [POGO] [POL]
 
 # How To Use
 
-Solder connectors or pogo pins (e.g. [ICT-100-T] ), I do not have a jig to hold them.
+Solder connectors or pogo pins (e.g. [ICT-100-T]).
 
 [ICT-100-T]: http://www.mouser.com/Search/Refine.aspx?Keyword=ICT-100-T
 
-The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down. It is powered by the target so removing power from the target after programming is both safe and advised.
+The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down. Since the buffer is powered by the target removing power from the target after programming is both safe and advised.
 
-The next version (^2) will use an R-Pi as the host. The upload tool (avrdude) can run directly on it, avrdude can operate the SPI pins with "avrdude -c linuxspi" or bit-bang then with "avrdude -clinuxgpio." The R-Pi can also do a serial bootload with a verity of methods: optiboot is "avrdude -c arduino," xboot is "avrdude -c avr109". It can operate serial tools like the one I have been using which is an Uno loaded with [ArduinoISP] "avrdude -c stk500v1".
+The next version (^2) will use an R-Pi as the host. The upload tool (avrdude) can run directly on it, avrdude can operate the SPI pins with "avrdude -c linuxspi" or bit-bang then with "avrdude -clinuxgpio." The R-Pi can also do a serial bootload with a verity of methods: optiboot is "avrdude -c arduino," xboot is "avrdude -c avr109". It can operate serial tools like the one I have been using which is an Uno loaded with [ArduinoISP] "avrdude -c stk500v1", [ElTangas/STK2UPDI] with "avrdude -c stk500v2", or even [mraardvark/pyupdi] serial port program.
 
 [ArduinoISP]: https://github.com/arduino/Arduino/blob/master/build/shared/examples/11.ArduinoISP/ArduinoISP/ArduinoISP.ino
+[ElTangas/STK2UPDI]: https://github.com/ElTangas/STK2UPDI
+[mraardvark/pyupdi]: https://github.com/mraardvark/pyupdi/
 
-The plan with ^2 is to use the switches like the shutdown switch that I have been using on RPUpi.  So that means a python program started at the command line will watch the switch and run the make rule when it is pushed. The current working folder will tell the program which makefile to run, so I don't even need to change the makefile for this, but I do need to write a little Python program to loop the build system at each button push, and I guess it can exit when I press the enter key. Everything is done over an SSH connection. Do I need to explain SSH, I hope not.
 
-I use Github for my programs, so I clone my project files onto the R-Pi and do a "git pull" before I burn new firmware. Also I use Makefiles, there is no IDE, just an editor, sometimes a good one like VSCode and other times it is Notepad (Samba can share the files) or gedit.
+The plan with ^2 is to use the switches like the shutdown switch that I have been using on RPUpi.  So that means a python program. I can start it at the command line and it will watch the switch and run the make rule at the working directory when it is pushed. The current working folder will tell the program which makefile to run, so I don't even need to change the makefile for this, but I do need to write a little Python program to loop the build system at each button push, and I guess it can exit when I press the enter key. Everything is done over an SSH connection. Do I need to explain SSH, I think that needs to be a homework exercise.
+
+I use Github for my programs and start with a clone of my project files onto the R-Pi, latter a "git pull" is used for updates before I burn new firmware. Also, I use Makefiles; there is no IDE, just an editor, sometimes a good one like VSCode and other times it is Notepad (Samba can share the files) or gedit. If you need an IDE, then I am sorry, but this is probably not the right tool.
 
 
