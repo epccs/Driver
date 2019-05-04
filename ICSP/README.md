@@ -2,7 +2,7 @@
 
 ## Overview
 
-Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. IOFF buffers are used to level convert to the targets voltage. It also allows the serial port to be used for serial bootload and has some switches to control looping of the upload. How to: “git pull” then “make isp” (assuming that is the desired Makefile rule).
+Use a Raspberry Pi Zero as a host with ^2 to do In-Circuit Serial Programming of AVR’s. IOFF buffers are used to level convert to the targets voltage. It also allows the serial port to be used for serial bootload and has some switches to control looping of the upload. How to: “git pull” then “make isp” (assuming that is the desired Makefile rule).
 
 ## Inputs/Outputs/Functions
 
@@ -37,9 +37,9 @@ Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. 
 ![Status](./status_icon.png "ICSP Status")
 
 ```
-        ^2  Done: Design, Layout, 
-            WIP: BOM,
-            Todo: Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^2  Done: Design, Layout, BOM, Review*,
+            WIP: Order Boards,
+            Todo: Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
             try with an R-Pi zero rather than Uno with ISP sketch.
             set up the serial port for bootloading use.
@@ -120,7 +120,7 @@ Solder connectors or pogo pins (e.g. [ICT-100-T]).
 
 The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down. Since the buffer is powered by the target removing power from the target after programming is both safe and advised.
 
-The next version (^2) will use an R-Pi as the host. The upload tool (avrdude) can run directly on it, avrdude can operate the SPI pins with "avrdude -c linuxspi" or bit-bang then with "avrdude -clinuxgpio." The R-Pi can also do a serial bootload with a verity of methods: optiboot is "avrdude -c arduino," xboot is "avrdude -c avr109". It can operate serial tools like the one I have been using which is an Uno loaded with [ArduinoISP] "avrdude -c stk500v1", [ElTangas/STK2UPDI] with "avrdude -c stk500v2", or even [mraardvark/pyupdi] serial port program.
+The next version (^2) will use an R-Pi as the host. The upload tool (avrdude) can run directly on it, avrdude can operate the SPI pins with "avrdude -c linuxspi" or bit-bang then with "avrdude -clinuxgpio." The R-Pi can also do a serial bootload with a verity of methods: optiboot is "avrdude -c arduino," xboot is "avrdude -c avr109". It can operate serial tools like the one I have been using which is an Uno loaded with [ArduinoISP] "avrdude -c stk500v1", [ElTangas/STK2UPDI] with "avrdude -c stk500v2", or even [mraardvark/pyupdi].
 
 [ArduinoISP]: https://github.com/arduino/Arduino/blob/master/build/shared/examples/11.ArduinoISP/ArduinoISP/ArduinoISP.ino
 [ElTangas/STK2UPDI]: https://github.com/ElTangas/STK2UPDI

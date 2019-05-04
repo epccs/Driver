@@ -39,9 +39,9 @@ Sixteen 22mA current sources controled with PCA9685 over I2C
 ![Status](./status_icon.png "Status")
 
 ```
-        ^0  Done: Design, Layout, BOM,
-            WIP: Review*,
-            Todo: Order Boards, Assembly, Testing, Evaluation.
+        ^0  Done: Design, Layout, BOM, Review*,
+            WIP: Order Boards,
+            Todo: Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
 ```
 
