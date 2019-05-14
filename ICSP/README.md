@@ -37,9 +37,9 @@ Use a Raspberry Pi Zero as a host with ^2 to do In-Circuit Serial Programming of
 ![Status](./status_icon.png "ICSP Status")
 
 ```
-        ^2  Done: Design, Layout, BOM, Review*,
-            WIP: Order Boards,
-            Todo: Assembly, Testing, Evaluation.
+        ^2  Done: Design, Layout, BOM, Review*, Order Boards,
+            WIP: Assembly,
+            Todo: Testing, Evaluation.
             *during review the Design may change without changing the revision.
             try with an R-Pi zero rather than Uno with ISP sketch.
             set up the serial port for bootloading use.
