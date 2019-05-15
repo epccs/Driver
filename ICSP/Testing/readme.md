@@ -15,7 +15,7 @@ This is a list of Test preformed on each board after assembly.
 
 ## Basics
 
-These tests are for an assembled ICSP board 15321^1 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
+These tests are for an assembled ICSP board 15321^2 which may be referred to as a Unit Under Test (UUT). If the UUT fails and can be reworked then do so, otherwise it needs to be scraped. 
 
 __Warning__: never use a soldering iron to rework ceramic capacitors due to the thermal shock.
 
@@ -31,16 +31,6 @@ After assembly check the circuit carefully to make sure all parts are soldered a
 Check continuity between pin and pad by measuring the reverse body diode drop from 0V (aka ground) and all other IC pads not connected to 0V. This value will vary somewhat depending on what the pin does, but there is typically an ESD diode to ground or sometimes a body diode (e.g. open drain MOSFET), thus a value of .4V to .7V is valid to indicate a solder connection. 
 
 
-## Bias 5V
+## TBD
 
-Setup a current limited supply with 5V and about 30mA limit. Connect the SPI input 0V (J1 pin 6) to the supply return. Connect the supply to input +5V (J1 pin 2), MOSI (J1 pin 4) and SCK (J1 pin 3) to the supply. 
-
-Connect the target voltage to the supply (J2 pin 2). Note the 0V is connected between to J1 and J2. 
-
-Pull down SCK (J1 pin 3) with a connection to the supply return.
-
-Pull down MOSI (J1 pin 4) with a connection to the supply return, pull up SCK (J1 pin 3) to the supply.
-
-Pull down nSS (J1 pin 5) with a connection to the supply return, pull up MOSI (J1 pin 4) to the supply.
-
-Pull down MISO (J2 pin 1) with a connection to the supply return, open nSS.
+Buffer U1 and U2 are powered by the target side. The probes are difficult to line up, and solder bridges are a problem, which can damage the target, check the ESD diode after soldering probes or headers to interface with the ICSP target.
