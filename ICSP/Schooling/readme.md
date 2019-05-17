@@ -11,6 +11,6 @@ Some lessons I learned doing ICSP.
 
 This is a layout mistake.
 
-![^0 Wrong Edge Pinout](./15321^0_WrongEdgePinout.jpg "^0 Wrong Edge Pinout")
+![^0_WrongEdgePinout](./15321^0_WrongEdgePinout.jpg "^0 Wrong Edge Pinout")
 
 

@@ -38,9 +38,9 @@ Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. 
 ![Status](./status_icon.png "ICSP Status")
 
 ```
-        ^2  Done: Design, Layout, BOM, Review*, Order Boards, Assembly,
-            WIP: Testing,
-            Todo: Evaluation.
+        ^2  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
+            WIP: Evaluation.
+            Todo: 
             *during review the Design may change without changing the revision.
             try with an R-Pi zero rather than Uno with ISP sketch.
             set up the serial port for bootloading use.

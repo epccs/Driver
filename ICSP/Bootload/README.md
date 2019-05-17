@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program will run "make bootload" rule on the Pi Zero when the switch on BCM5 is pressed. Pressing the swithc on BCM13 will set a flag that ends the program with one last press on BCM5.
+This program will run "make bootload" rule on the Pi Zero when the switch on BCM5 is pressed. Pressing the switch on BCM13 will set a flag that ends the program with one last press on BCM5.
 
 To install the scrip from the GitHub repository.
 
