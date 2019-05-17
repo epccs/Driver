@@ -2,7 +2,8 @@
 
 ## Overview
 
-Use a Raspberry Pi Zero as a host with ^2 to do In-Circuit Serial Programming of AVR’s. IOFF buffers are used to level convert to the targets voltage. It also allows the serial port to be used for serial bootload and has some switches to control looping of the upload. How to: “git pull” then “make isp” (assuming that is the desired Makefile rule).
+Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. IOFF buffers are used to level convert to the targets voltage. It also allows the serial port to be used for serial bootload and has some switches to control looping of the upload. 
+
 
 ## Inputs/Outputs/Functions
 
@@ -114,21 +115,35 @@ Z. | [BRD] [SMD] [HDR] [POGO] [POL]
 
 # How To Use
 
-Solder connectors or pogo pins (e.g. [ICT-100-T]).
+This tool works with Makefiles and its rules. For example, I do a “git pull” then “make isp” or "make bootload" to load my project firmware, and this adds a little Python program to operate those rules when a button is pushed.
+
+The option exists to use connectors or pogo pins (e.g. [ICT-100-T]). I am not yet sure of a pleasant way to solder the pogo pins without some pain, they are also expensive, but the advantage of not having to solder headers on my various boards is worth it to me.
 
 [ICT-100-T]: http://www.mouser.com/Search/Refine.aspx?Keyword=ICT-100-T
 
-The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down. Since the buffer is powered by the target removing power from the target after programming is both safe and advised.
+The 74LVC07A has IOFF circuitry which disables the output to prevent damaging current backflow when the device is powered down since the buffer is powered by the target removing power from the target device after programming is both safe and advised.
 
-The next version (^2) will use an R-Pi as the host. The upload tool (avrdude) can run directly on it, avrdude can operate the SPI pins with "avrdude -c linuxspi" or bit-bang then with "avrdude -clinuxgpio." The R-Pi can also do a serial bootload with a verity of methods: optiboot is "avrdude -c arduino," xboot is "avrdude -c avr109". It can operate serial tools like the one I have been using which is an Uno loaded with [ArduinoISP] "avrdude -c stk500v1", [ElTangas/STK2UPDI] with "avrdude -c stk500v2", or even [mraardvark/pyupdi].
+
+## Bootload
+
+The R-Pi host can use its hardware serial to upload firmware to a serial bootloader with a verity of methods: optiboot is "avrdude -c arduino," xboot is "avrdude -c avr109". It can also operate serial tools like an Uno loaded with [ArduinoISP] "avrdude -c stk500v1", [ElTangas/STK2UPDI] with "avrdude -c stk500v2", or even [mraardvark/pyupdi]. The pinout is like an [FTDI_Friend].
 
 [ArduinoISP]: https://github.com/arduino/Arduino/blob/master/build/shared/examples/11.ArduinoISP/ArduinoISP/ArduinoISP.ino
 [ElTangas/STK2UPDI]: https://github.com/ElTangas/STK2UPDI
 [mraardvark/pyupdi]: https://github.com/mraardvark/pyupdi/
+[FTDI_Friend]: https://www.adafruit.com/product/284
+
+Run the [bootld.py] script over an SSH connection in a folder with the Makefile bootload rule. 
+
+[bootld.py]: ./Bootload
 
 
-The plan with ^2 is to use the switches like the shutdown switch that I have been using on RPUpi.  So that means a python program. I can start it at the command line and it will watch the switch and run the make rule at the working directory when it is pushed. The current working folder will tell the program which makefile to run, so I don't even need to change the makefile for this, but I do need to write a little Python program to loop the build system at each button push, and I guess it can exit when I press the enter key. Everything is done over an SSH connection. Do I need to explain SSH, I think that needs to be a homework exercise.
+## ICSP on SPI
 
-I use Github for my programs and start with a clone of my project files onto the R-Pi, latter a "git pull" is used for updates before I burn new firmware. Also, I use Makefiles; there is no IDE, just an editor, sometimes a good one like VSCode and other times it is Notepad (Samba can share the files) or gedit. If you need an IDE, then I am sorry, but this is probably not the right tool.
+The R-Pi host can also upload with "avrdude -c linuxspi" or bit-bang with "avrdude -c linuxgpio." 
+
+Run the [icsp.py] script over an SSH connection in a folder with the Makefile isp rule. 
+
+[icsp.py]: ./Iscp
 
 
