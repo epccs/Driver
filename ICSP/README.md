@@ -38,6 +38,12 @@ Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. 
 ![Status](./status_icon.png "ICSP Status")
 
 ```
+        ^3  Done: 
+            WIP: 
+            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+            *during review the Design may change without changing the revision.
+            connect MIS0 to MISO (zero should have been a 'O')   
+
         ^2  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
             WIP: Evaluation.
             Todo: 
@@ -142,7 +148,7 @@ Run the [bootld.py] script over an SSH connection in a folder with the Makefile 
 
 The R-Pi host can also upload with "avrdude -c linuxspi" or bit-bang with "avrdude -c linuxgpio." 
 
-Run the [icsp.py] script over an SSH connection in a folder with the Makefile isp rule. 
+Run the [icsp.py] script over an SSH connection in a folder with the Makefile linuxspi rule. 
 
 [icsp.py]: ./Iscp
 
