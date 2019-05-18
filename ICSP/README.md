@@ -44,8 +44,8 @@ Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. 
             *during review the Design may change without changing the revision.
             connect MIS0 to MISO (zero should have been a 'O')   
 
-        ^2  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
-            WIP: Evaluation.
+        ^2  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+            WIP: 
             Todo: 
             *during review the Design may change without changing the revision.
             try with an R-Pi zero rather than Uno with ISP sketch.
@@ -121,9 +121,9 @@ Z. | [BRD] [SMD] [HDR] [POGO] [POL]
 
 # How To Use
 
-This tool works with Makefiles and its rules. For example, I do a “git pull” then “make isp” or "make bootload" to load my project firmware, and this adds a little Python program to operate those rules when a button is pushed.
+This tool works with Makefiles and its rules. For example, I do a “git pull” then “make isp” or "make bootload" to install my project firmware, and this adds a little Python program to operate those type of rules when a button is pushed.
 
-The option exists to use connectors or pogo pins (e.g. [ICT-100-T]). I am not yet sure of a pleasant way to solder the pogo pins without some pain, they are also expensive, but the advantage of not having to solder headers on my various boards is worth it to me.
+Ether use connectors or spring probes (e.g., pogo pins [ICT-100-T]). I am not yet sure of a pleasant way to solder the probes, they are also expensive, but the advantage of not having to solder headers on my various boards makes this worth it to me.
 
 [ICT-100-T]: http://www.mouser.com/Search/Refine.aspx?Keyword=ICT-100-T
 
@@ -153,3 +153,8 @@ Run the [icsp.py] script over an SSH connection in a folder with the Makefile li
 [icsp.py]: ./Iscp
 
 
+## Linux
+
+In this case, it is Raspian; here are my [notes].
+
+[notes]: ./linux.md

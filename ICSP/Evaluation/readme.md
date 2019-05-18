@@ -180,6 +180,8 @@ press icsp_pin again to end program
 
 That was fast, that was the fastest I have seen anything go.
 
+![ICSPwithMisoHackRPUpi](./ICSP^2withMisoHack_RPUpi^4_linuxspi.jpg "ICSPwithMisoHack RPUpi linuxspi")
+
 
 ## ^2 Serial Port with Pi Zero W
 
@@ -207,11 +209,118 @@ As the R-Pi Zero W boots up the D1 green LED is dimly lit. Once the overlay is a
 
 I did a script so that I can push the bootload button (S1) and run the make bootload rule. I run that script after setting the working folder to the location with the make rule (e.g., change directory to the folder with Makefile).
 
+Next I have a bootload rule in the RPUno i2c-debug application's Makefile.
+
+``` 
+bootload:
+	avrdude -v -p $(MCU) -c arduino -P $(BOOTLOAD_PORT) -b 38400 -U flash:w:$(TARGET).hex
+```
+
+Then ran this bootld.py script on the working folder with that Makefile.
+
 https://github.com/epccs/Driver/tree/master/ICSP/Bootload
 
-![^2_ICSPbootloadingRPUno](./ICSP^2_RPUno^9_bootloading.jpg "^2 ICSP bootloading RPUno")
+```
+make
+# build the hex file 
+python ~/bin/bootld.py
+rsutherland dialout gpio spi
+rsutherland dialout gpio spi
+avrdude -v -p atmega328p -c arduino -P /dev/ttyAMA0 -b 38400 -U flash:w:I2c-debug.hex
 
-I am impressed with how easy it was to automate these builds; the toil of tracking hex files was what I was expecting based on experience, but going from the source in the repository to binary upload with the tool alone is satisfying.
+avrdude: Version 6.3-20171130
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "/etc/avrdude.conf"
+         User configuration file is "/home/rsutherland/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/ttyAMA0
+         Using Programmer              : arduino
+         Overriding Baud Rate          : 38400
+         AVR Part                      : ATmega328P
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PC2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65    20     4    0 no       1024    4      0  3600  3600 0xff 0xff
+           flash         65     6   128    0 yes     32768  128    256  4500  4500 0xff 0xff
+           lfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           hfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           efuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           lock           0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : Arduino
+         Description     : Arduino
+         Hardware Version: 3
+         Firmware Version: 6.2
+         Vtarget         : 0.3 V
+         Varef           : 0.3 V
+         Oscillator      : 28.800 kHz
+         SCK period      : 3.3 us
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: safemode: lfuse reads as 0
+avrdude: safemode: hfuse reads as 0
+avrdude: safemode: efuse reads as 0
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "I2c-debug.hex"
+avrdude: input file I2c-debug.hex auto detected as Intel Hex
+avrdude: writing flash (8692 bytes):
+
+Writing | ################################################## | 100% 3.28s
+
+avrdude: 8692 bytes of flash written
+avrdude: verifying flash memory against I2c-debug.hex:
+avrdude: load data flash data from input file I2c-debug.hex:
+avrdude: input file I2c-debug.hex auto detected as Intel Hex
+avrdude: input file I2c-debug.hex contains 8692 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 2.69s
+
+avrdude: verifying ...
+avrdude: 8692 bytes of flash verified
+
+avrdude: safemode: lfuse reads as 0
+avrdude: safemode: hfuse reads as 0
+avrdude: safemode: efuse reads as 0
+avrdude: safemode: Fuses OK (E:00, H:00, L:00)
+
+avrdude done.  Thank you.
+
+icsp_pin falling event occured so use_icsp_pin_to_stop flag cleared
+press bootload_pin again to end program
+make clean
+```
+
+![ICSPbootloadingRPUno](./ICSP^2_RPUno^9_bootloading.jpg "^2 ICSP bootloading RPUno")
+
+I am impressed with how easy it was to automate this; the toil of tracking hex files was what I have seen and was expecting based on that experience, but going from source in the repository to binary upload all within the tool is satisfying.
 
 
 ## ^1 Programing RPUadpt
@@ -221,16 +330,16 @@ An Arduino Uno with the [ArduinoISP] example sketch is used to load an [RPUadpt]
 [ArduinoISP]: https://github.com/arduino/Arduino/blob/master/build/shared/examples/11.ArduinoISP/ArduinoISP/ArduinoISP.ino
 [RPUadpt]: https://github.com/epccs/RPUadpt
 
-![^1_ICSPprogramingRPUadpt](./ICSP^1_RPUadpt^5_programing.jpg "^1 ICSP Programing RPUadpt")
+![ICSPprogramingRPUadpt](./ICSP^1_RPUadpt^5_programing.jpg "^1 ICSP Programing RPUadpt")
 
 
 ## ^0 SPI loopback Test
 
 Setup an RPUadpt^1 board to Loopback the SPI data from a 3.3V target. Note RPUadpt^1 had an ATtiny1634 which was changed to an ATmega328p.
 
-![^0_SPIloopback](./15321^0_SPILoopbackSetup.jpg "^0 SPI Loopback")
+![SPIloopback](./15321^0_SPILoopbackSetup.jpg "^0 SPI Loopback")
 
 
 Looked at the SCK and MOSI/MISO on TARGET side and INPUT side.
 
-![^0_SPIoscpLoopback](./15321^0_SPILoopbackOnScope.jpg "^0 SPI Loopback On Scope")
+![SPIoscpLoopback](./15321^0_SPILoopbackOnScope.jpg "^0 SPI Loopback On Scope")

@@ -29,11 +29,11 @@ avrdude -v
 avrdude: Version 6.3-20171130
 ```
 
-I think Raspian's avrdude is from facchinm, but it is is older than this update
+I think Raspian's avrdude is from facchinm, but it is is older than this update:
 
 https://github.com/facchinm/avrdude/commit/aa0d28f774147fb03f8b18cd065586c7a93a2b0b
 
-so I guess this needs build from source to fix the issue (or I guess run it with an sudo). 
+So I guess this needs build from source to fix the issue (or I run it with an sudo). 
 
 
 ## ^2 spi fails loopback test
@@ -47,6 +47,6 @@ Rework: run wire from inside pad of R6 to R-Pi pin 21.
 
 This is a layout mistake.
 
-![^0_WrongEdgePinout](./15321^0_WrongEdgePinout.jpg "^0 Wrong Edge Pinout")
+![WrongEdgePinout](./15321^0_WrongEdgePinout.jpg "^0 Wrong Edge Pinout")
 
 
