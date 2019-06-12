@@ -38,9 +38,9 @@ Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. 
 ![Status](./status_icon.png "ICSP Status")
 
 ```
-        ^3  Done: 
-            WIP: 
-            Todo: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^3  Done: Design, Layout, BOM,
+            WIP: Review*,
+            Todo: Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
             connect MIS0 to MISO (zero should have been a 'O')   
 
@@ -50,17 +50,7 @@ Use a Raspberry Pi Zero as a host to do In-Circuit Serial Programming of AVR’s. 
             *during review the Design may change without changing the revision.
             try with an R-Pi zero rather than Uno with ISP sketch.
             set up the serial port for bootloading use.
-            set up better for pogo pins.
-
-        ^1  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing,
-            WIP: Evaluation.
-            Todo:  
-            *during review the Design may change without changing the revision.
-            fixed the pads so the connector/header works.
-
-        ^0  Done: Design, Layout, BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
-            location: 2015-12-15 Bench /w ArduinoISP sketch on an Uno 
-            location: 2015-12-25 Shelf /w ArduinoISP sketch on an Uno 
+            set up better for pogo pins. 
 ```
 
 Debugging and fixing problems i.e. [Schooling](./Schooling/)
@@ -121,7 +111,10 @@ Z. | [BRD] [SMD] [HDR] [POGO] [POL]
 
 # How To Use
 
-This tool works with Makefiles and its rules. For example, I do a “git pull” then “make isp” or "make bootload" to install my project firmware, and this adds a little Python program to operate those type of rules when a button is pushed.
+This tool works with Makefiles. For example, I have build rules like “make linuxspi" or "make bootload" to upload my project firmware. I use a little Python (e.g., [Icsp] and [Bootload])  program to operate those rules when a button is pushed on this board.
+
+[Icsp]: https://github.com/epccs/Driver/tree/master/ICSP/Icsp
+[Bootload]: https://github.com/epccs/Driver/tree/master/ICSP/Bootload
 
 Ether use connectors or spring probes (e.g., pogo pins [ICT-100-T]). I am not yet sure of a pleasant way to solder the probes, they are also expensive, but the advantage of not having to solder headers on my various boards makes this worth it to me.
 

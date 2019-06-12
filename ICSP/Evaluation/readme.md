@@ -221,8 +221,9 @@ Then ran this bootld.py script on the working folder with that Makefile.
 https://github.com/epccs/Driver/tree/master/ICSP/Bootload
 
 ```
+# build the hex file
 make
-# build the hex file 
+# run script
 python ~/bin/bootld.py
 rsutherland dialout gpio spi
 rsutherland dialout gpio spi
