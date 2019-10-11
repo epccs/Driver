@@ -35,6 +35,13 @@ https://github.com/facchinm/avrdude/commit/aa0d28f774147fb03f8b18cd065586c7a93a2
 
 So I guess this needs build from source to fix the issue (or I run it with an sudo). 
 
+Another option may be to export gpio25 before avrdude uses it as follows:
+
+```
+$ [ -d /sys/class/gpio/gpio25 ] || echo 25 >/sys/class/gpio/export
+$ avrdude -P /dev/spidev0.0 -c linuxspi -p atmega328p -U eeprom:r:atmega328p_eeprom.hex:i
+```
+
 
 ## ^2 spi fails loopback test
 
