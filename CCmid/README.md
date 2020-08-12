@@ -7,7 +7,8 @@ Constant currrent source based on AL8805W5-7 switch mode control for LED or othe
 ## Inputs/Outputs/Functions
 
 ```
-        350mA with 0.3 Ohm sense resistor
+        350mA setpoint with 0.3 Ohm sense resistor
+        Reduce output current with R2 (decreases to 1/5 of set point.)
 ```
 
 
@@ -34,13 +35,13 @@ Constant currrent source based on AL8805W5-7 switch mode control for LED or othe
 ![Status](./status_icon.png "Status")
 
 ```
-        ^0  Done: 
-            WIP: Design, 
-            Todo: Layout (#=done), BOM, Review*, Order Boards, Assembly, Testing, Evaluation.
+        ^0  Done: Design (#=done), Layout, BOM,
+            WIP: Review*,
+            Todo: Order Boards, Assembly, Testing, Evaluation.
             *during review the Design may change without changing the revision.
-            Switch mode CC supply with sense resistor set at 350mA setpoint.
-            Need a TVS to deal with the load dump when the alternat input cuts off power, e.g., SMAJ28A-13-F 
-            Buck cntl IC AL8805W5-7 (like on the Lux board)
+            # Switch mode CC supply with sense resistor set at 350mA setpoint.
+            # Need a TVS to deal with the load dump when the alternat input cuts off power, e.g., SMAJ28A-13-F 
+            # Buck cntl IC AL8805W5-7 (like on the Lux board)
 ```
 
 Debugging and fixing problems i.e. [Schooling](./Schooling/)
@@ -85,7 +86,7 @@ M. | [BRD] [SMD] [HDR]
 
 # How To Use
 
-TBD
+The datasheet shows an I[CTRL] vs V[CTRL] plot that idicates sinking some current from the I[CTRL] pin will reduce its voltage. Sinking more than 50 uA will turn it off. I have shown a 3.74k Ohm on the schmatic, which seems to reduce the ouput current to less than 50% of the setpoint on a few samples but this varies significanly withe each lot.
 
 
 
